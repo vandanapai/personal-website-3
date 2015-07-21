@@ -12,12 +12,16 @@
 
 @import 'modules/colors';
 @import 'modules/mixins';
+@import 'modules/variables';
+
+// Partials
+
+@import 'partials/typography';
 
 
 // Layout
 
 @import 'layout/main-content-grid';
+@import 'layout/side-nav';
+@import 'layout/main-content';
 
-// Partials
-
-@import 'partials/typography';

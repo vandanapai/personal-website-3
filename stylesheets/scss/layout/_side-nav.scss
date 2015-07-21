@@ -1,0 +1,9 @@
+@import '../modules/colors';
+
+.side-nav {
+	background-color: $side-bar-background;
+	float: left;
+	width: $side-bar-width;
+	height: 100%;
+	position: fixed;
+}

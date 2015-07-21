@@ -203,6 +203,12 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+p, h1, ul, ol {
+  margin-bottom: 24px; }
+
+h1 {
+  line-height: 3em; }
+
 section {
   max-width: 68em;
   margin-left: auto;
@@ -226,10 +232,14 @@ section {
     section article:last-child {
       margin-right: 0; }
 
-p, h1, ul, ol {
-  margin-bottom: 24px; }
+.side-nav {
+  background-color: #1F1F1F;
+  float: left;
+  width: 200px;
+  height: 100%;
+  position: fixed; }
 
-h1 {
-  line-height: 3em; }
+.main-container {
+  margin-left: 200px; }
 
 /*# sourceMappingURL=main.css.map */
