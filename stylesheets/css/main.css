@@ -209,6 +209,40 @@ p, h1, ul, ol {
 h1 {
   line-height: 3em; }
 
+@font-face {
+  font-family: "avenir";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/Avenir/avenirltstd-book-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Avenir/avenirltstd-book-webfont.woff") format("woff"), url("../assets/fonts/Avenir/avenirltstd-book-webfont.svg#avenir") format("svg"); }
+@font-face {
+  font-family: "avenir";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../assets/fonts/Avenir/avenirltstd-black-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Avenir/avenirltstd-black-webfont.woff") format("woff"), url("../assets/fonts/Avenir/avenirltstd-black-webfont.svg#avenir") format("svg"); }
+@font-face {
+  font-family: "lora";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/Lora/Lora-Regular.woff") format("woff"), url("../assets/fonts/Lora/Lora-Regular.ttf") format("truetype"), url("../assets/fonts/Lora/Lora-Regular.svg#lora") format("svg"); }
+@font-face {
+  font-family: "lora";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../assets/fonts/Lora/Lora-Bold.woff") format("woff"), url("../assets/fonts/Lora/Lora-Bold.ttf") format("truetype"), url("../assets/fonts/Lora/Lora-Bold.svg#lora") format("svg"); }
+@font-face {
+  font-family: "lora";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../assets/fonts/Lora/Lora-BoldItalic.woff") format("woff"), url("../assets/fonts/Lora/Lora-BoldItalic.ttf") format("truetype"), url("../assets/fonts/Lora/Lora-BoldItalic.svg#lora") format("svg"); }
+@font-face {
+  font-family: "lora";
+  font-style: normal;
+  font-weight: italic;
+  src: url("../assets/fonts/Lora/Lora-Italic.woff") format("woff"), url("../assets/fonts/Lora/Lora-Italic.ttf") format("truetype"), url("../assets/fonts/Lora/Lora-Italic.svg#lora") format("svg"); }
+body {
+  font: 100% "Lora", Georgia, serif;
+  color: #1F1F1F; }
+
 section {
   max-width: 68em;
   margin-left: auto;
