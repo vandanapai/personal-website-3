@@ -1,3 +1,7 @@
+.main-container {
+	margin-left: $side-bar-width;
+}
+
 section {
   @include outer-container;
   aside { @include span-columns(3); }

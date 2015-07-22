@@ -2,4 +2,17 @@ a {
 	font-family: $sans-font-stack;
 	color: inherit;
 	letter-spacing: $sans-letter-spacing;
+
+	&.side-nav {
+		text-transform: uppercase;
+		font-size: $side-bar-nav-font-size;
+		@include transition (all 0.3s ease-in-out);
+
+		&:hover, &:focus, &:active {
+			color: $pure-white;
+
+		}
+	
+	}
+
 }

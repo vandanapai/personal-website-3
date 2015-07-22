@@ -1,0 +1,27 @@
+.project-grid-container{
+
+}
+
+.project-tile {
+	width: 100%;
+	height: $project-tile-height;
+
+	&.boost {
+		background-color: $boost-orange;
+
+	}
+
+	&.cocktail {
+		background-color: $cocktail-pink;
+	}
+
+	&.mml {
+		background-color: $mml-red;
+
+	}
+
+	&.gopro {
+		background-color: $gopro-blue;
+
+	}
+}

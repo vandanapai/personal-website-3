@@ -1,19 +1,20 @@
-.side-nav {
-	background-color: $side-bar-background;
-	float: left;
+.side-bar-container {
 	width: $side-bar-width;
-	height: 100%;
 	position: fixed;
-	color: $lightest-grey;
+	height: 100%;
+	background-color: $side-bar-background;
+
+}
+
+
+.side-nav {
+	height: inherit;
+	color: $side-nav-link-color;
 	@include display(flex);
 	@include align-items(center);
 	@include flex-direction(column);
 	@include justify-content(center);
 
-	a {
-		text-transform: uppercase;
-		font-size: $side-bar-nav-font-size;
-	}
 
 	img {
 		text-align: center;
