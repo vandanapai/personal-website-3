@@ -1,9 +1,21 @@
-@import '../modules/colors';
-
 .side-nav {
 	background-color: $side-bar-background;
 	float: left;
 	width: $side-bar-width;
 	height: 100%;
 	position: fixed;
+	color: $lightest-grey;
+	@include display(flex);
+	@include align-items(center);
+	@include flex-direction(column);
+	@include justify-content(center);
+
+	a {
+		text-transform: uppercase;
+		font-size: $side-bar-nav-font-size;
+	}
+
+	img {
+		text-align: center;
+	}
 }

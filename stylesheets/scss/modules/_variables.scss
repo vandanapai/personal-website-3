@@ -1,8 +1,14 @@
 // MODULES
 
-$side-bar-width: 200px;
+$side-bar-width: 240px;
 
 // FONTS
 
 $sans-font-stack: 'Avenir', sans-serif;
 $serif-font-stack: 'Lora', Georgia, serif;
+
+// FONT SIZES
+
+$baseline-multiplier: 1.5;
+$side-bar-nav-font-size: 1.125em;
+$sans-letter-spacing: 0.188em;
