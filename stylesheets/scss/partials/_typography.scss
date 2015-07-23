@@ -10,17 +10,23 @@ h1 {
 
 // Import Fonts
 
-@include font-face("avenir", "../assets/fonts/Avenir/avenirltstd-book-webfont", $file-formats: eot woff svg);
-@include font-face("avenir", "../assets/fonts/Avenir/avenirltstd-black-webfont", bold, $file-formats: eot woff svg);
+@include font-face("avenir", "../../assets/fonts/Avenir/avenirltstd-book-webfont", $file-formats: eot woff svg);
+@include font-face("avenir", "../../assets/fonts/Avenir/avenirltstd-black-webfont", bold, $file-formats: eot woff svg);
 
-@include font-face("lora", "../assets/fonts/Lora/Lora-Regular", $file-formats: woff ttf svg);
-@include font-face("lora", "../assets/fonts/Lora/Lora-Bold", bold, $file-formats: woff ttf svg);
-@include font-face("lora", "../assets/fonts/Lora/Lora-BoldItalic", bold, italic, $file-formats: woff ttf svg);
-@include font-face("lora", "../assets/fonts/Lora/Lora-Italic", italic, $file-formats: woff ttf svg);
+@include font-face("lora", "../../assets/fonts/Lora/Lora-Regular", $file-formats: woff ttf svg);
+@include font-face("lora", "../../assets/fonts/Lora/Lora-Bold", bold, $file-formats: woff ttf svg);
+@include font-face("lora", "../../assets/fonts/Lora/Lora-BoldItalic", bold, italic, $file-formats: woff ttf svg);
+@include font-face("lora", "../../assets/fonts/Lora/Lora-Italic", italic, $file-formats: woff ttf svg);
 
 // Font Styling
 
 body {
 	font: 100% $serif-font-stack;
 	color: $main-body-font-color;
+}
+
+h1 {
+	&.project-intro-title {
+		font-weight: 400;
+	}
 }

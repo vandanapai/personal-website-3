@@ -1,3 +1,5 @@
+
+
 @charset "UTF-8";
 
 @mixin grid-column-gradient($values...) {
@@ -14,7 +16,7 @@
     content: "";
     display: inline-block;
     height: 100%;
-    left: 0;
+    left: 240px;
     margin: 0 auto;
     max-width: $max-width;
     opacity: $visual-grid-opacity;

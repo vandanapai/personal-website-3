@@ -3,7 +3,25 @@
 }
 
 section {
-  @include outer-container;
-  aside { @include span-columns(3); }
-  article { @include span-columns(9); }
+
+	&.project-content-container {
+	  @include outer-container;
+	}
+
 }
+
+article {
+	&.project-intro-title {
+		@include span-columns(5);
+	}
+}
+
+aside {
+	&.project-intro-background-info {
+		@include span-columns(6);
+		@include shift(1)
+	}
+}
+
+
+
