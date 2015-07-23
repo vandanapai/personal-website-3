@@ -203,7 +203,7 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-p, h1, ul, ol {
+p, h1, ul, ol, button {
   margin-bottom: 24px;
   line-height: 24px; }
 
@@ -237,13 +237,6 @@ body {
   color: #717171;
   font-style: normal; }
 
-h1.project-intro-title {
-  font-family: Georgia, serif;
-  font-weight: 400;
-  font-size: 3em;
-  color: #1F1F1F;
-  line-height: 1em; }
-
 p.project-intro-background-info {
   font-size: 1.25em;
   line-height: 1.875em; }
@@ -251,10 +244,26 @@ p.project-intro-details {
   font-family: Georgia, serif;
   font-style: italic; }
 
-h6.project-intro-background-info {
+h1.project-intro-title {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: 3em;
+  color: #1F1F1F;
+  line-height: 1em; }
+
+h2 {
+  font-size: 1em; }
+
+h3 {
+  font-family: Georgia, serif;
+  font-size: 1.5em;
+  font-weight: 400; }
+
+h6.project-intro-background-info, h2 {
   font-family: "Avenir", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.188em; }
+  letter-spacing: 0.188em;
+  color: #C6C6C6; }
 
 a {
   font-family: "Avenir", sans-serif;
@@ -278,6 +287,22 @@ ul {
     ul.side-nav-links li {
       margin-bottom: 3.375em; }
 
+button {
+  border: 0 none;
+  color: #FFFFFF;
+  padding: 1.5em 3em 1.5em 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.188em;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  button:hover, button:focus, button:active {
+    outline: 0; }
+  button.boost {
+    background-color: #FEB787; }
+    button.boost:hover, button.boost:focus, button.boost:active {
+      background-color: #fecdab; }
+
 .main-container {
   margin-left: 240px; }
 
@@ -290,6 +315,14 @@ section.project-intro {
     clear: both;
     content: "";
     display: table; }
+section.project-content {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  section.project-content::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 article.project-intro-title {
   float: left;
@@ -297,6 +330,13 @@ article.project-intro-title {
   margin-right: 2.35765%;
   width: 40.29137%; }
   article.project-intro-title:last-child {
+    margin-right: 0; }
+article.project-info-process {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  article.project-info-process:last-child {
     margin-right: 0; }
 
 aside.project-intro-background-info {
@@ -369,7 +409,11 @@ aside.project-intro-background-info {
 
 .project-info-grey-container {
   background-color: #F9F9F9;
-  height: 400px;
-  margin-top: 80px; }
+  margin-top: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.centered {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

@@ -9,11 +9,19 @@ section {
 		@include outer-container;
 	}
 
+	&.project-content {
+		@include outer-container;
+	}
+
 }
 
 article {
 	&.project-intro-title {
 		@include span-columns(5);
+	}
+
+	&.project-info-process {
+		@include span-columns(4);
 	}
 }
 

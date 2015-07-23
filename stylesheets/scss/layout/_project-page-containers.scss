@@ -1,5 +1,10 @@
 .project-info-grey-container {
 	background-color: $lightest-grey-container;
-	height: 400px;
 	margin-top: $project-section-margin;
+	padding-top: $project-section-padding;
+	padding-bottom: $project-section-padding;
+}
+
+.centered {
+	text-align: center;
 }

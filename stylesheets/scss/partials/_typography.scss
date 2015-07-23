@@ -1,6 +1,6 @@
 // Baseline Grid
 
-p, h1, ul, ol{
+p, h1, ul, ol, button{
 	margin-bottom: $base-font-size * 1.5;
 	line-height: $base-font-size * 1.5;
 }
@@ -24,16 +24,6 @@ body {
 	font-style: normal;
 }
 
-h1 {
-	&.project-intro-title {
-		font-family: $serif-font-stack;
-		font-weight: 400;
-		font-size: 3em;
-		color: $darkest-grey;
-		line-height: 1em;
-	}
-}
-
 p {
 	&.project-intro-background-info {
 		
@@ -47,10 +37,35 @@ p {
 	}
 }
 
+
+h1 {
+	&.project-intro-title {
+		font-family: $serif-font-stack;
+		font-weight: 400;
+		font-size: 3em;
+		color: $darkest-grey;
+		line-height: 1em;
+	}
+}
+
+h2 {
+	font-size: 1em;
+
+	@extend h6.project-intro-background-info;
+}
+
+h3 {
+	font-family: $serif-font-stack;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+
 h6 {
 	&.project-intro-background-info {
 		font-family: $sans-font-stack;
 		text-transform: uppercase;
 		letter-spacing: $sans-letter-spacing;
+		color: $uppercase-content-headers;
 	}
 }

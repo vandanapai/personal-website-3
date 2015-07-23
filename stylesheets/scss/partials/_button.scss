@@ -1,0 +1,24 @@
+// RESET BUTTON
+
+button {
+	border: 0 none;
+	color: $pure-white;
+	padding: 1.5em 3em 1.5em 3em;
+	text-transform: uppercase;
+	letter-spacing: $sans-letter-spacing;
+	@include transition (all 0.3s ease-in-out);
+
+	&:hover, &:focus, &:active {
+		outline:0;
+	}
+
+
+	&.boost {
+		background-color: $boost-orange;
+
+		&:hover, &:focus, &:active {
+			background-color: tint($boost-orange, 30%);
+		}
+	}
+
+}
