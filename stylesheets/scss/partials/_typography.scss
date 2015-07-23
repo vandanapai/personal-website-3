@@ -2,31 +2,55 @@
 
 p, h1, ul, ol{
 	margin-bottom: $base-font-size * 1.5;
+	line-height: $base-font-size * 1.5;
 }
 
-h1 {
-	line-height: $h1-font-size * 1.5;
-}
+
 
 // Import Fonts
 
 @include font-face("avenir", "../../assets/fonts/Avenir/avenirltstd-book-webfont", $file-formats: eot woff svg);
 @include font-face("avenir", "../../assets/fonts/Avenir/avenirltstd-black-webfont", bold, $file-formats: eot woff svg);
 
-@include font-face("lora", "../../assets/fonts/Lora/Lora-Regular", $file-formats: woff ttf svg);
-@include font-face("lora", "../../assets/fonts/Lora/Lora-Bold", bold, $file-formats: woff ttf svg);
-@include font-face("lora", "../../assets/fonts/Lora/Lora-BoldItalic", bold, italic, $file-formats: woff ttf svg);
-@include font-face("lora", "../../assets/fonts/Lora/Lora-Italic", italic, $file-formats: woff ttf svg);
+@include font-face("lora", "../../assets/fonts/Lora/Lora-Regular", normal, $file-formats: eot woff ttf svg);
+@include font-face("lora", "../../assets/fonts/Lora/Lora-Bold", bold, $file-formats: eot woff ttf svg);
+@include font-face("lora", "../../assets/fonts/Lora/Lora-Italic", italic, $file-formats: eot woff ttf svg);
 
 // Font Styling
 
 body {
-	font: 100% $serif-font-stack;
+	font: 100% $sans-font-stack;
 	color: $main-body-font-color;
+	font-style: normal;
 }
 
 h1 {
 	&.project-intro-title {
+		font-family: $serif-font-stack;
 		font-weight: 400;
+		font-size: 3em;
+		color: $darkest-grey;
+		line-height: 1em;
+	}
+}
+
+p {
+	&.project-intro-background-info {
+		
+		font-size: 1.25em;
+		line-height: 1.25em * 1.5;
+	}
+
+	&.project-intro-details {
+		font-family: $serif-font-stack;
+		font-style: italic;
+	}
+}
+
+h6 {
+	&.project-intro-background-info {
+		font-family: $sans-font-stack;
+		text-transform: uppercase;
+		letter-spacing: $sans-letter-spacing;
 	}
 }

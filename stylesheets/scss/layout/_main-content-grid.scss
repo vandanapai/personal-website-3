@@ -4,8 +4,9 @@
 
 section {
 
-	&.project-content-container {
-	  @include outer-container;
+	&.project-intro {
+		margin-top: $project-section-margin;
+		@include outer-container;
 	}
 
 }
@@ -19,7 +20,7 @@ article {
 aside {
 	&.project-intro-background-info {
 		@include span-columns(6);
-		@include shift(1)
+		@include shift(1);
 	}
 }
 
