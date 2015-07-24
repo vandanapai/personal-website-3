@@ -1,5 +1,9 @@
 .main-container {
 	margin-left: $side-bar-width;
+
+	&.boost {
+		margin-left: 0;
+	}
 }
 
 section {
@@ -7,6 +11,7 @@ section {
 	&.project-intro {
 		margin-top: $project-section-margin;
 		@include outer-container;
+
 	}
 
 	&.project-content {
@@ -18,12 +23,21 @@ section {
 }
 
 article {
+
+
+
 	&.project-intro-title {
 		@include span-columns(5);
+		@include media($mobile) { 
+    			@include span-columns(5);
+    		}
 	}
 
 	&.project-info-process {
 		@include span-columns(4);
+				@include media($mobile) { 
+    			@include span-columns(4);
+    		}
 	}
 
 	&.project-info-visual-identity {
