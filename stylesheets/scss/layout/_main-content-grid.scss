@@ -27,16 +27,14 @@ article {
 	}
 
 	&.project-info-visual-identity {
-		@include span-columns(4);
+		@include span-columns(6);
+
+		&.centered {
+			@include shift(3);
+		}
 	}
 
-	&.centered {
-		@include shift(4);
-	}
 
-	&.project-info-visual-identity-images{
-		@include span-columns(12);
-	}
 }
 
 aside {
@@ -44,7 +42,17 @@ aside {
 		@include span-columns(6);
 		@include shift(1);
 	}
+
+	&.project-info-visual-identity {
+		@include span-columns(4);
+		@include shift(1);
+
+	}
 }
 
-
+.img-box {
+		@include span-columns(3);
+  		@include omega(3n);
+  		@include shift(1);
+	}
 
