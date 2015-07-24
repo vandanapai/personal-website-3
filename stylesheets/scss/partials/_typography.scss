@@ -35,6 +35,10 @@ p {
 		font-family: $serif-font-stack;
 		font-style: italic;
 	}
+
+	&.light-text-on-dark {
+		color: $pure-white;
+	}
 }
 
 
@@ -62,10 +66,11 @@ h3 {
 
 
 h6 {
-	&.project-intro-background-info {
+	&.project-intro-background-info, &.project-content-sub {
 		font-family: $sans-font-stack;
 		text-transform: uppercase;
 		letter-spacing: $sans-letter-spacing;
 		color: $uppercase-content-headers;
 	}
+
 }

@@ -13,6 +13,8 @@ section {
 		@include outer-container;
 	}
 
+
+
 }
 
 article {
@@ -22,6 +24,18 @@ article {
 
 	&.project-info-process {
 		@include span-columns(4);
+	}
+
+	&.project-info-visual-identity {
+		@include span-columns(4);
+	}
+
+	&.centered {
+		@include shift(4);
+	}
+
+	&.project-info-visual-identity-images{
+		@include span-columns(12);
 	}
 }
 

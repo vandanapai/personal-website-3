@@ -1,10 +1,25 @@
 .project-info-grey-container {
 	background-color: $lightest-grey-container;
 	margin-top: $project-section-margin;
-	padding-top: $project-section-padding;
-	padding-bottom: $project-section-padding;
+	@extend .project-info-container;
+
 }
 
 .centered {
 	text-align: center;
+}
+
+.project-info-container {
+
+	padding-top: $project-section-padding;
+	padding-bottom: $project-section-padding;
+}
+
+.project-info-color-container {
+
+	@extend .project-info-container;
+
+	&.boost {
+		background-color: $boost-blue;
+	}
 }
