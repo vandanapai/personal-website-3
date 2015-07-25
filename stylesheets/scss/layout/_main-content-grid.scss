@@ -50,8 +50,15 @@
 		@include shift(4);
 
 		@media screen and (max-width: 768px){
-			@include span-columns(12 of 12);
-			@include shift(0);
+			@include span-columns(4 of 8);
+			@include shift(2);
+
+	    }
+
+		@media screen and (max-width: 480px){
+			@include span-columns(2 of 4);
+			@include shift(1);
+
 	    }
 	}
 
@@ -65,13 +72,35 @@
 .project-content-image {
 	&.right {
 		@include span-columns(6 of 12);
+
+		text-align: center;
 		
 		@media screen and (max-width: 768px){
         	@include span-columns(12 of 12);
     	}
 	}
 
+	&.img-grid {
+		@include span-columns(12 of 12);
+		@include shift(2);
+
+
+	    @media screen and (max-width: 768px){
+        	@include span-columns(12 of 12);
+        	@include shift(1);
+
+		}
+	}
+
 	    @media screen and (max-width: 768px){
         	@include span-columns(12 of 12);
     }
+}
+
+.img-box {
+	@include span-columns(3 of 12);
+
+	    @media screen and (max-width: 768px){
+        	@include span-columns(3 of 12);
+	}
 }

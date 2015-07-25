@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    $('a.project-tile-boost').click(function() {
-           $('#p-fill, #background-fill').css({ fill: "red"});
+    $("#project-tile-boost").click(function() {
+    	alert("hello world!");
+    	$("#main-content-container").load("work/test.html");
     });
 });
