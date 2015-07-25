@@ -1,6 +1,11 @@
 .main-container {
 	@include outer-container;
 
+<<<<<<< HEAD
+=======
+#main-content-container {
+	margin-left: $side-bar-width;
+>>>>>>> fb491022cc1e33fb8a3ded1822e01e2fc913cea7
 }
 
 #main-content-container {
