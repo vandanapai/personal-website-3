@@ -26,38 +26,35 @@ body {
 	font-style: normal;
 }
 
-p {
-	&.project-intro-background-info {
-		
-		font-size: 1.25em;
-		line-height: 1.25em * 1.5;
-	}
 
-	&.project-intro-details {
-		font-family: $serif-font-stack;
-		font-style: italic;
-	}
-
-	&.light-text-on-dark {
-		color: $pure-white;
-	}
-}
-
-
-h1 {
-	&.project-intro-title {
+.project-intro-container{
+	h1 {
 		font-family: $serif-font-stack;
 		font-weight: 400;
 		font-size: 3em;
 		color: $darkest-grey;
 		line-height: 1em;
 	}
+
+	h4 {
+		font-size: 1.25em;
+		line-height: 1.25em * 1.5;
+		font-weight: 400;
+	}
+
+	p {
+		font-family: $serif-font-stack;
+		font-style: italic;		
+	}
 }
+
 
 h2 {
 	font-size: 1em;
+	margin-bottom: 1.5em;
+	margin-top: 1.5em;
+	@extend h6;
 
-	@extend h6.project-intro-background-info;
 }
 
 h3 {
@@ -68,11 +65,20 @@ h3 {
 
 
 h6 {
-	&.project-intro-background-info, &.project-content-sub {
-		font-family: $sans-font-stack;
-		text-transform: uppercase;
-		letter-spacing: $sans-letter-spacing;
-		color: $uppercase-content-headers;
+	font-family: $sans-font-stack;
+	text-transform: uppercase;
+	letter-spacing: $sans-letter-spacing;
+	color: $uppercase-content-headers;
+
+}
+
+
+.project-content-container {
+
+	&.dark {
+		p {
+			color: $pure-white;
+		}
 	}
 
 }

@@ -73,7 +73,7 @@ h5 {
   font-size: 0.83em;
   margin: 1.67em 0; }
 
-h6 {
+h6, h2 {
   font-size: 0.75em;
   margin: 2.33em 0; }
 
@@ -203,25 +203,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100.0%, transparent 100.0%);
-  background-image: -moz-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100.0%, transparent 100.0%);
-  background-image: -ms-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100.0%, transparent 100.0%);
-  background-image: -o-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100.0%, transparent 100.0%);
-  background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100.0%, transparent 100.0%);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  left: 240px;
-  margin: 0 auto;
-  max-width: 68em;
-  opacity: 0.4;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: 9999; }
-
 p, h1, ul, ol, button {
   margin-bottom: 24px;
   line-height: 24px; }
@@ -261,35 +242,38 @@ body {
   color: #717171;
   font-style: normal; }
 
-p.project-intro-background-info {
-  font-size: 1.25em;
-  line-height: 1.875em; }
-p.project-intro-details {
-  font-family: Georgia, serif;
-  font-style: italic; }
-p.light-text-on-dark {
-  color: #FFFFFF; }
-
-h1.project-intro-title {
+.project-intro-container h1 {
   font-family: Georgia, serif;
   font-weight: 400;
   font-size: 3em;
   color: #1F1F1F;
   line-height: 1em; }
+.project-intro-container h4 {
+  font-size: 1.25em;
+  line-height: 1.875em;
+  font-weight: 400; }
+.project-intro-container p {
+  font-family: Georgia, serif;
+  font-style: italic; }
 
 h2 {
-  font-size: 1em; }
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  margin-top: 1.5em; }
 
 h3 {
   font-family: Georgia, serif;
   font-size: 1.5em;
   font-weight: 400; }
 
-h6.project-intro-background-info, h2, h6.project-content-sub {
+h6, h2 {
   font-family: "Avenir", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.188em;
   color: #C6C6C6; }
+
+.project-content-container.dark p {
+  color: #FFFFFF; }
 
 a {
   font-family: "Avenir", sans-serif;
@@ -337,97 +321,141 @@ button {
     vertical-align: bottom; }
 
 .main-container {
-  margin-left: 240px; }
-  .main-container.boost {
-    margin-left: 0; }
-
-section.project-intro {
-  margin-top: 80px;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  section.project-intro::after {
-    clear: both;
-    content: "";
-    display: table; }
-section.project-content {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  section.project-content::after {
+  .main-container::after {
     clear: both;
     content: "";
     display: table; }
 
-article.project-intro-title {
+.project-intro-container {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 40.29137%; }
-  article.project-intro-title:last-child {
+  width: 100%; }
+  .project-intro-container:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 480px) {
-    article.project-intro-title {
-      float: left;
-      display: block;
-      margin-right: 7.42297%;
-      width: 126.85574%; }
-      article.project-intro-title:last-child {
-        margin-right: 0; } }
-article.project-info-process {
+
+.project-content-container {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
-  article.project-info-process:last-child {
+  width: 100%; }
+  .project-content-container:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 480px) {
-    article.project-info-process {
-      float: left;
-      display: block;
-      margin-right: 7.42297%;
-      width: 100%; }
-      article.project-info-process:last-child {
-        margin-right: 0; } }
-article.project-info-visual-identity {
+
+.project-intro-title {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%; }
-  article.project-info-visual-identity:last-child {
+  .project-intro-title:last-child {
     margin-right: 0; }
-  article.project-info-visual-identity.centered {
-    margin-left: 25.58941%; }
+  @media screen and (max-width: 768px) {
+    .project-intro-title {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .project-intro-title:last-child {
+        margin-right: 0; } }
 
-aside.project-intro-background-info {
+.project-intro-info {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%;
-  margin-left: 8.5298%; }
-  aside.project-intro-background-info:last-child {
+  width: 48.82117%; }
+  .project-intro-info:last-child {
     margin-right: 0; }
-aside.project-info-visual-identity {
+  @media screen and (max-width: 768px) {
+    .project-intro-info {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .project-intro-info:last-child {
+        margin-right: 0; } }
+
+.project-content-row.left {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .project-content-row.left:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 768px) {
+    .project-content-row.left {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .project-content-row.left:last-child {
+        margin-right: 0; } }
+.project-content-row.right {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .project-content-row.right:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 768px) {
+    .project-content-row.right {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .project-content-row.right:last-child {
+        margin-right: 0; } }
+.project-content-row.centered {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
-  margin-left: 8.5298%; }
-  aside.project-info-visual-identity:last-child {
+  margin-left: 34.11922%; }
+  .project-content-row.centered:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 768px) {
+    .project-content-row.centered {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-left: 0%; }
+      .project-content-row.centered:last-child {
+        margin-right: 0; } }
+@media screen and (max-width: 768px) {
+  .project-content-row {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .project-content-row:last-child {
+      margin-right: 0; } }
 
-.img-box {
+.project-content-image.right {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 23.23176%;
-  margin-left: 8.5298%; }
-  .img-box:last-child {
+  width: 48.82117%; }
+  .project-content-image.right:last-child {
     margin-right: 0; }
-  .img-box:nth-child(3n) {
-    margin-right: 0; }
-  .img-box:nth-child(3n+1) {
-    clear: left; }
+  @media screen and (max-width: 768px) {
+    .project-content-image.right {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .project-content-image.right:last-child {
+        margin-right: 0; } }
+@media screen and (max-width: 768px) {
+  .project-content-image {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .project-content-image:last-child {
+      margin-right: 0; } }
 
 .side-bar-container {
   width: 240px;
@@ -488,18 +516,15 @@ aside.project-info-visual-identity {
   .project-tile.gopro {
     background-color: #4A90E2; }
 
-.project-info-grey-container {
-  background-color: #F9F9F9;
-  margin-top: 80px; }
-
 .centered {
   text-align: center; }
 
-.project-info-container, .project-info-grey-container, .project-info-color-container {
+.project-content-container, .project-intro-container {
   padding-top: 80px;
   padding-bottom: 80px; }
-
-.project-info-color-container.boost {
-  background-color: #134463; }
+  .project-content-container.grey, .project-intro-container.grey {
+    background-color: #F9F9F9; }
+  .project-content-container.boost-blue, .project-intro-container.boost-blue {
+    background-color: #134463; }
 
 /*# sourceMappingURL=main.css.map */

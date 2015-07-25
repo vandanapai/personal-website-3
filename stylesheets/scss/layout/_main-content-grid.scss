@@ -1,72 +1,77 @@
 .main-container {
-	margin-left: $side-bar-width;
-
-	&.boost {
-		margin-left: 0;
-	}
+	@include outer-container;
 }
 
-section {
 
-	&.project-intro {
-		margin-top: $project-section-margin;
-		@include outer-container;
 
+.project-intro-container {
+	@include span-columns(12);
+}
+
+.project-content-container {
+	@include span-columns(12);
+}
+
+.project-intro-title {
+	@include span-columns(6 of 12);
+
+	@media screen and (max-width: 768px){
+		@include span-columns(12 of 12);
+    }
+}
+
+.project-intro-info {
+	@include span-columns(6 of 12);
+
+	@media screen and (max-width: 768px){
+		@include span-columns(12 of 12);
+    }
+}
+
+.project-content-row {
+	&.left {
+		@include span-columns(6 of 12);
+
+		@media screen and (max-width: 768px){
+			@include span-columns(12 of 12);
+	    }
 	}
 
-	&.project-content {
-		@include outer-container;
+	&.right {
+		@include span-columns(6 of 12);
+
+		@media screen and (max-width: 768px){
+			@include span-columns(12 of 12);
+	    }
 	}
 
+	&.centered {
+		@include span-columns(4 of 12);
+		@include shift(4);
 
+		@media screen and (max-width: 768px){
+			@include span-columns(12 of 12);
+			@include shift(0);
+	    }
+	}
+
+    @media screen and (max-width: 768px){
+        @include span-columns(12 of 12);
+    }
+	
 
 }
 
-article {
-
-
-
-	&.project-intro-title {
-		@include span-columns(5);
-		@include media($mobile) { 
-    			@include span-columns(5);
-    		}
+.project-content-image {
+	&.right {
+		@include span-columns(6 of 12);
+		
+		@media screen and (max-width: 768px){
+        	@include span-columns(12 of 12);
+    	}
 	}
 
-	&.project-info-process {
-		@include span-columns(4);
-				@include media($mobile) { 
-    			@include span-columns(4);
-    		}
-	}
-
-	&.project-info-visual-identity {
-		@include span-columns(6);
-
-		&.centered {
-			@include shift(3);
-		}
-	}
-
-
+	    @media screen and (max-width: 768px){
+        	@include span-columns(12 of 12);
+    }
 }
-
-aside {
-	&.project-intro-background-info {
-		@include span-columns(6);
-		@include shift(1);
-	}
-
-	&.project-info-visual-identity {
-		@include span-columns(4);
-		@include shift(1);
-
-	}
-}
-
-.img-box {
-		@include span-columns(3);
-  		@include omega(3n);
-  		@include shift(1);
-	}
-

@@ -1,26 +1,17 @@
-.project-info-grey-container {
-	background-color: $lightest-grey-container;
-	margin-top: $project-section-margin;
-	@extend .project-info-container;
-
-}
-
 .centered {
 	text-align: center;
 }
 
-.project-info-container {
+.project-content-container, .project-intro-container {
 
 	padding-top: $project-section-padding;
 	padding-bottom: $project-section-padding;
-}
 
-.project-info-color-container {
+	&.grey {
+		background-color: $lightest-grey-container;
+	}
 
-	@extend .project-info-container;
-
-	&.boost {
+	&.boost-blue {
 		background-color: $boost-blue;
 	}
 }
-
