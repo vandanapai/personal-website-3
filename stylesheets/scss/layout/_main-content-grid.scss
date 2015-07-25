@@ -1,16 +1,17 @@
 .main-container {
-	@include outer-container;
 
-<<<<<<< HEAD
-=======
-#main-content-container {
-	margin-left: $side-bar-width;
->>>>>>> fb491022cc1e33fb8a3ded1822e01e2fc913cea7
+}
+
+.grid-container {
+		@include outer-container;
 }
 
 #main-content-container {
-	margin-left: $side-bar-width;
+	@media screen and (min-width: 768px){
+		margin-left: $side-bar-width;
+    }
 }
+
 
 .project-intro-container {
 	@include span-columns(12);
@@ -22,7 +23,7 @@
 }
 
 .project-intro-title {
-	@include span-columns(6 of 12);
+	@include span-columns(5 of 12);
 
 	@media screen and (max-width: 768px){
 		@include span-columns(12 of 12);

@@ -16,7 +16,7 @@
     content: "";
     display: inline-block;
     height: 100%;
-    left: 0px;
+    left: 0;
     margin: 0 auto;
     max-width: $max-width;
     opacity: $visual-grid-opacity;
@@ -31,6 +31,10 @@
 
     @else if $visual-grid-index == front {
       z-index: 9999;
+    }
+
+    @media screen and (min-width: 768px){
+          left: 240px;
     }
 
     @each $breakpoint in $visual-grid-breakpoints {
