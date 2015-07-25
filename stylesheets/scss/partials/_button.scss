@@ -15,10 +15,13 @@ button {
 
 	&.boost {
 		background-color: $boost-orange;
-
-		&:hover, &:focus, &:active {
-			background-color: tint($boost-orange, 30%);
-		}
 	}
 
+	&.cocktail {
+		background-color: $cocktail-pink;
+	}
+
+	&.mml {
+		background-color: $mml-red;
+	}
 }
