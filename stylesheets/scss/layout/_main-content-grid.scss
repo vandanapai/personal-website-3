@@ -1,11 +1,15 @@
 .main-container {
 	@include outer-container;
+
 }
 
-
+#main-content-container {
+	margin-left: $side-bar-width;
+}
 
 .project-intro-container {
 	@include span-columns(12);
+
 }
 
 .project-content-container {

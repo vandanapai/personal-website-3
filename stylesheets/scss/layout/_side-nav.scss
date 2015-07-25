@@ -4,6 +4,10 @@
 	height: 100%;
 	background-color: $side-bar-background;
 
+	@media screen and (max-width: 768px){
+		display: none;
+    }
+
 }
 
 

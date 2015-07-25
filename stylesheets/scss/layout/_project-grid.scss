@@ -1,5 +1,8 @@
 .project-grid-container{
 	margin-left: $side-bar-width;
+	@media screen and (max-width: 768px){
+		margin-left: 0;
+    }
 
 }
 
@@ -24,5 +27,9 @@
 	&.gopro {
 		background-color: $gopro-blue;
 
+	}
+
+	&.personal {
+		background-color: $personal-teal;
 	}
 }

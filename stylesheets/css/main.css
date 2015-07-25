@@ -335,6 +335,9 @@ button {
     content: "";
     display: table; }
 
+#main-content-container {
+  margin-left: 240px; }
+
 .project-intro-container {
   float: left;
   display: block;
@@ -511,6 +514,9 @@ button {
   position: fixed;
   height: 100%;
   background-color: #1F1F1F; }
+  @media screen and (max-width: 768px) {
+    .side-bar-container {
+      display: none; } }
 
 .side-nav {
   height: inherit;
@@ -555,6 +561,9 @@ button {
 
 .project-grid-container {
   margin-left: 240px; }
+  @media screen and (max-width: 768px) {
+    .project-grid-container {
+      margin-left: 0; } }
 
 .project-tile {
   width: 100%;
@@ -567,6 +576,8 @@ button {
     background-color: #EC4F4F; }
   .project-tile.gopro {
     background-color: #4A90E2; }
+  .project-tile.personal {
+    background-color: #55C3C2; }
 
 .centered {
   text-align: center; }
