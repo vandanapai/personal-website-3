@@ -2,6 +2,9 @@
 	@include outer-container;
 }
 
+#main-content-container {
+	margin-left: $side-bar-width;
+}
 
 
 .project-intro-container {

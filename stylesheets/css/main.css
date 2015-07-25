@@ -335,6 +335,9 @@ button {
     content: "";
     display: table; }
 
+#main-content-container {
+  margin-left: 240px; }
+
 .project-intro-container {
   float: left;
   display: block;
