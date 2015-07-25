@@ -1,9 +1,6 @@
-.main-container {
-
-}
 
 .grid-container {
-		@include outer-container;
+	@include outer-container;
 }
 
 #main-content-container {
@@ -32,9 +29,11 @@
 
 .project-intro-info {
 	@include span-columns(6 of 12);
+	@include shift(1);
 
 	@media screen and (max-width: 768px){
 		@include span-columns(12 of 12);
+		@include shift(0);
     }
 }
 
