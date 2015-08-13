@@ -1,0 +1,12 @@
+@mixin overlay($bgColor: #000, $bgOpacity: 0.6){
+	&:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba($bgColor, $bgOpacity);
+    z-index: 0;
+	}
+}

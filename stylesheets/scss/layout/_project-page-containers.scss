@@ -1,4 +1,4 @@
-.centered {
+.centered, .centered-wide {
 	text-align: center;
 }
 
@@ -13,5 +13,9 @@
 
 	&.boost-blue {
 		background-color: $boost-blue;
+	}
+
+	&.cocktail-purple {
+		background-color: $cocktail-purple;
 	}
 }

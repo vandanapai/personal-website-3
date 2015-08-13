@@ -73,10 +73,10 @@ h6 {
 }
 
 
-.project-content-container {
+.project-content-container, .project-content-row  {
 
 	&.dark {
-		p {
+		p, h3 {
 			color: $pure-white;
 		}
 	}

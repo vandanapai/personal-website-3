@@ -15,3 +15,32 @@
 .boost-typography-colors {
 	width: 350px;
 }
+
+/* GLOBAL IMAGES */
+
+.wireframe-bg-img {
+	background: url("../../assets/img/wireframe-temp.jpg") center center no-repeat #fff;
+	background-size: cover;
+	position: relative;
+}
+
+/* BOOST IMAGES */
+
+
+/* 901 COCKTAILS */
+
+.intro-cocktail-bg-img {
+	background: url("../../assets/img/cocktail/cocktail-temp.jpg") center center no-repeat #fff;
+	background-size: cover;
+	position: relative;
+	@include overlay();
+
+}
+
+.ia-map-bg-img {
+	background: url("../../assets/img/cocktail/ia-map.jpg") center center no-repeat #fff;
+	background-size: cover;
+	position: relative;
+	@include overlay();
+
+}
