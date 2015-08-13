@@ -354,7 +354,7 @@ button {
   button.cocktail {
     background-color: #D776A4; }
   button.mml {
-    background-color: #EC4F4F; }
+    background-color: #1157AF; }
 
 .img-box {
   padding: 10px; }
@@ -370,6 +370,25 @@ button {
   width: 350px; }
 
 /* GLOBAL IMAGES */
+#p-fill, #background-fill {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
+  #p-fill.default, #background-fill.default {
+    fill: #FFFFFF; }
+  #p-fill.boost, #background-fill.boost {
+    fill: #FEB787; }
+  #p-fill.cocktail, #background-fill.cocktail {
+    fill: #D776A4; }
+  #p-fill.mml, #background-fill.mml {
+    fill: #1157AF; }
+  #p-fill.gopro, #background-fill.gopro {
+    fill: #5EA9DC; }
+  #p-fill.redbull, #background-fill.redbull {
+    fill: #DB0A40; }
+  #p-fill.personal, #background-fill.personal {
+    fill: #55C3C2; }
+
 .wireframe-bg-img {
   background: url("../../assets/img/wireframe-temp.jpg") center center no-repeat #fff;
   background-size: cover;
@@ -722,9 +741,11 @@ body {
   .project-tile.cocktail {
     background-color: #D776A4; }
   .project-tile.mml {
-    background-color: #EC4F4F; }
+    background-color: #1157AF; }
   .project-tile.gopro {
-    background-color: #4A90E2; }
+    background-color: #5EA9DC; }
+  .project-tile.redbull {
+    background-color: #DB0A40; }
   .project-tile.personal {
     background-color: #55C3C2; }
 

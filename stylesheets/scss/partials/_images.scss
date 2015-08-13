@@ -18,6 +18,40 @@
 
 /* GLOBAL IMAGES */
 
+#p-fill, #background-fill { // vp logo color change
+  	@include transition(all 0.25s ease-in-out);
+
+  	&.default {
+  		fill: $pure-white;
+  	}
+
+	&.boost {
+		fill: $boost-orange;
+	}
+
+	&.cocktail {
+		fill: $cocktail-pink;
+	}
+
+	&.mml {
+		fill: $mml-blue;
+
+	}
+
+	&.gopro {
+		fill: $gopro-blue;
+
+	}
+
+	&.redbull {
+		fill: $redbull-red;
+	}
+
+	&.personal {
+		fill: $personal-teal;
+	}
+}
+
 .wireframe-bg-img {
 	background: url("../../assets/img/wireframe-temp.jpg") center center no-repeat #fff;
 	background-size: cover;
