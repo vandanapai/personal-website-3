@@ -1,3 +1,13 @@
+body {
+	width: 100%;
+	height: auto;
+	background: $pure-black;
+}
+
+.body-container {
+	max-width: 1456px;
+	margin: auto;	
+}
 
 .grid-container {
 	@include outer-container;
@@ -8,6 +18,12 @@
 		margin-left: $side-bar-width;
     }
 }
+
+.main-content-container {
+	background-color: $pure-white;
+}
+
+
 
 
 .project-intro-container {

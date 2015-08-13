@@ -1,4 +1,4 @@
-.project-grid-container{
+.project-grid-container, .main-content-container{
 	margin-left: $side-bar-width;
 	@media screen and (max-width: 768px){
 		margin-left: 0;

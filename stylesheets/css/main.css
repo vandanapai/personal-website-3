@@ -203,6 +203,45 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+/*
+ * CSS Page Transitions
+ * Don't forget to add vendor prefixes!
+ */
+.m-scene {
+  /** Basic styles for an animated element */
+  /** An element that fades in */
+  /** An element that fades in and slides up */
+  /** An element that fades in and slides from the right */ }
+  .m-scene .scene_element {
+    animation-duration: 0.25s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both; }
+  .m-scene .scene_element--fadein {
+    animation-name: fadeIn; }
+  .m-scene .scene_element--fadeinup {
+    animation-name: fadeInUp; }
+  .m-scene .scene_element--fadeinright {
+    animation-name: fadeInRight; }
+
 p, h1, ul, ol, button {
   margin-bottom: 24px;
   line-height: 24px; }
@@ -328,6 +367,15 @@ button {
 .boost-typography-colors {
   width: 350px; }
 
+body {
+  width: 100%;
+  height: auto;
+  background: #000000; }
+
+.body-container {
+  max-width: 1456px;
+  margin: auto; }
+
 .grid-container {
   max-width: 68em;
   margin-left: auto;
@@ -346,6 +394,9 @@ button {
 @media screen and (min-width: 768px) {
   #main-content-container {
     margin-left: 240px; } }
+
+.main-content-container {
+  background-color: #FFFFFF; }
 
 .project-intro-container {
   float: left;
@@ -570,10 +621,10 @@ button {
   .side-nav img {
     text-align: center; }
 
-.project-grid-container {
+.project-grid-container, .main-content-container {
   margin-left: 240px; }
   @media screen and (max-width: 768px) {
-    .project-grid-container {
+    .project-grid-container, .main-content-container {
       margin-left: 0; } }
 
 .project-tile {
@@ -594,6 +645,7 @@ button {
   text-align: center; }
 
 .project-content-container, .project-intro-container {
+  float: none;
   padding-top: 80px;
   padding-bottom: 80px; }
   .project-content-container.grey, .project-intro-container.grey {
