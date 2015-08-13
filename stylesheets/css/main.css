@@ -313,7 +313,7 @@ button {
   button.boost {
     background-color: #FEB787; }
   button.cocktail {
-    background-color: #D776A4; }
+    background-color: #D44D5C; }
   button.mml {
     background-color: #1157AF; }
 
@@ -340,7 +340,7 @@ button {
   #p-fill.boost, #background-fill.boost {
     fill: #FEB787; }
   #p-fill.cocktail, #background-fill.cocktail {
-    fill: #D776A4; }
+    fill: #D44D5C; }
   #p-fill.mml, #background-fill.mml {
     fill: #1157AF; }
   #p-fill.gopro, #background-fill.gopro {
@@ -727,7 +727,7 @@ body {
   .project-tile.boost {
     background-color: #FEB787; }
   .project-tile.cocktail {
-    background-color: #D776A4; }
+    background-color: #D44D5C; }
   .project-tile.mml {
     background-color: #1157AF; }
   .project-tile.gopro {
@@ -749,6 +749,6 @@ body {
   .project-content-container.boost-blue, .project-intro-container.boost-blue {
     background-color: #134463; }
   .project-content-container.cocktail-purple, .project-intro-container.cocktail-purple {
-    background-color: #3E182A; }
+    background-color: #773344; }
 
 /*# sourceMappingURL=main.css.map */
