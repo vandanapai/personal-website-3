@@ -1,22 +1,4 @@
 $(document).ready(function() {
-	// $('#project-tile-boost').click(function(e){
-	// 	$('#project-grid-container').fadeOut();
-	//     e.preventDefault();
-	//     $.ajax({
-	//         type: "GET",
-	//         url: "work/boost.html",
-	//         data: { },
-	//         success: function(data){
-	//             $('#main-content-container').html(data);
-	//         }
-	//     });
-	// });
-
-
-	// $("a[rel='tab']").click(function(e){
-	// //code for the link action
-	// return false;
-	// });
 
 	$(function(){
 		$("a[rel='get']").click(function(e){
@@ -47,7 +29,6 @@ $(document).ready(function() {
 			}});
 		});
 	});
-
 });
 
 

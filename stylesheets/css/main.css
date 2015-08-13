@@ -313,6 +313,8 @@ h6, h2 {
 
 .project-content-container.dark p, .project-content-container.dark h3, .project-content-row.dark p, .project-content-row.dark h3 {
   color: #FFFFFF; }
+.project-content-container.thirds p, .project-content-row.thirds p {
+  text-align: center; }
 
 a {
   font-family: "Avenir", sans-serif;
@@ -486,6 +488,24 @@ body {
 
 .project-content-row {
   /* for text on sections with image backgrounds and dark overlay */ }
+  .project-content-row.thirds {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .project-content-row.thirds:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 768px) {
+      .project-content-row.thirds {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .project-content-row.thirds:last-child {
+          margin-right: 0; } }
+    .project-content-row.thirds img {
+      margin: auto;
+      display: block; }
   .project-content-row.left {
     float: left;
     display: block;

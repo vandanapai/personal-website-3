@@ -55,6 +55,19 @@ body {
 
 .project-content-row {
 
+	&.thirds {
+		@include span-columns(4 of 12);
+
+		@media screen and (max-width: 768px){
+			@include span-columns(12 of 12);
+	    }
+
+	    img {
+	    	margin: auto;
+	    	display: block;
+	    }
+	}
+
 	&.left {
 		@include span-columns(6 of 12);
 
@@ -91,6 +104,7 @@ body {
 	&.centered-wide {
 		@include span-columns(6 of 12);
 		@include shift(3);
+
 		@media screen and (max-width: 768px){
 			@include span-columns(6 of 8);
 			@include shift(1);
@@ -103,6 +117,8 @@ body {
 
 	    }
 	}
+
+
 
     @media screen and (max-width: 768px){
         @include span-columns(12 of 12);
