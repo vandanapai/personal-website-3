@@ -1,0 +1,30 @@
+figure[name="paused-gif"] {
+  position: relative;
+  cursor: pointer;
+
+
+  &::before {
+    content: 'a';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    font-family: 'icon-font';
+    border: 3px solid rgba(208, 208, 208, 0.7);
+    border-radius: 25px;
+    background-color: rgba(130, 130, 130, 0.3);
+    text-align: center;
+    line-height: 55px;
+    font-size: 30px;
+    color: $pure-white;
+    display: block;
+    top: 50%;
+    left: 50%;
+    @include transform(translateY(-50%) translateX(-50%));
+  }
+
+  &.play {
+    &::before {
+      display: none;
+    }
+  }
+}

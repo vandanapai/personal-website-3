@@ -203,45 +203,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0); }
-  100% {
-    opacity: 1;
-    transform: none; } }
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0); }
-  100% {
-    opacity: 1;
-    transform: none; } }
-/*
- * CSS Page Transitions
- * Don't forget to add vendor prefixes!
- */
-.m-scene {
-  /** Basic styles for an animated element */
-  /** An element that fades in */
-  /** An element that fades in and slides up */
-  /** An element that fades in and slides from the right */ }
-  .m-scene .scene_element {
-    animation-duration: 0.25s;
-    transition-timing-function: ease-in;
-    animation-fill-mode: both; }
-  .m-scene .scene_element--fadein {
-    animation-name: fadeIn; }
-  .m-scene .scene_element--fadeinup {
-    animation-name: fadeInUp; }
-  .m-scene .scene_element--fadeinright {
-    animation-name: fadeInRight; }
-
 p, h1, ul, ol, button {
   margin-bottom: 24px;
   line-height: 24px; }
@@ -423,6 +384,33 @@ button {
     width: 100%;
     background: rgba(0, 0, 0, 0.6);
     z-index: 0; }
+
+figure[name="paused-gif"] {
+  position: relative;
+  cursor: pointer; }
+  figure[name="paused-gif"]::before {
+    content: 'a';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    font-family: 'icon-font';
+    border: 3px solid rgba(208, 208, 208, 0.7);
+    border-radius: 25px;
+    background-color: rgba(130, 130, 130, 0.3);
+    text-align: center;
+    line-height: 55px;
+    font-size: 30px;
+    color: #FFFFFF;
+    display: block;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%); }
+  figure[name="paused-gif"].play::before {
+    display: none; }
 
 body {
   width: 100%;
