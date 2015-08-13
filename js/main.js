@@ -70,7 +70,7 @@ $(document).ready(function() {
 					$imgAlt = $img.attr('data-alt'),
 					$imgExt = $imgAlt.split('.');
 					
-			if($imgExt[1] === 'gif') {
+			if($imgExt[3] === 'gif') {
 				$img.attr('src', $img.data('alt')).attr('data-alt', $imgSrc);
 			} else {
 				$img.attr('src', $imgAlt).attr('data-alt', $img.data('alt'));
