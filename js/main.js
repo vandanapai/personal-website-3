@@ -17,6 +17,8 @@ $(document).ready(function() {
 
 		//to get the ajax content and display in div with id 'content'
 		$.ajax({url:pageurl+'?rel=get',success: function(data){
+			var result = $(data).filter('#ajax-loaded-content').html(); //test
+			console.log(result); 
 			$('#main-content-container').html(data);
 			$('html, body').animate({ scrollTop: 0 }, 200);
 		}});
@@ -32,6 +34,7 @@ $(document).ready(function() {
 		/* the below code is to override back button to get the ajax content without page reload*/
 		$(window).bind('popstate', function() {
 			$.ajax({url:location.pathname+'?rel=get',success: function(data){
+				var result = $(data).filter('#ajax-loaded-content').html();
 				$('#main-content-container').html(data);
 			}});
 		});
