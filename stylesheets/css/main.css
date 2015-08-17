@@ -712,10 +712,10 @@ body {
   .side-nav img {
     text-align: center; }
 
-.project-grid-container, .main-content-container {
+.main-content-container {
   margin-left: 240px; }
   @media screen and (max-width: 768px) {
-    .project-grid-container, .main-content-container {
+    .main-content-container {
       margin-left: 0; } }
 
 .project-tile {
