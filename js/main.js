@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
 	$(function(){
 		$("a[rel='get']").click(function(e){
 		e.preventDefault();
