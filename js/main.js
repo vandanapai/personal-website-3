@@ -13,13 +13,12 @@ $(document).ready(function() {
 			$('#background-fill, #p-fill').attr('class', pageColor);
 
 
-
 		//to get the ajax content and display in div with id 'content'
 		$.ajax({url:pageurl+'?rel=get',success: function(data){
 			var result = $(data).filter('#ajax-loaded-content').html(); //test
 			console.log(result); 
 			$('#main-content-container').html(data);
-			$('html, body').animate({ scrollTop: 0 }, 200);
+			$('html, body').animate({ scrollTop: 0 }, 200); // scroll to top 
 		}});
 
 		//to change the browser URL to the given link location
@@ -38,6 +37,8 @@ $(document).ready(function() {
 			}});
 		});
 	});
+
+
 
 	(function($) {
 
