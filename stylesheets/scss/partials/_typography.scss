@@ -21,7 +21,7 @@ p, h1, ul, ol, button, figure{
 // Font Styling
 
 body {
-	font: 100% $sans-font-stack;
+	font: 100% $serif-font-stack;
 	color: $main-body-font-color;
 	font-style: normal;
 }
@@ -37,8 +37,8 @@ body {
 	}
 
 	h4 {
-		font-size: 1.25em;
-		line-height: 1.25em * 1.5;
+		font-size: 1.5em;
+		line-height: 1.5em * 1.5;
 		font-weight: 400;
 	}
 
@@ -46,6 +46,11 @@ body {
 		font-family: $serif-font-stack;
 		font-style: italic;		
 	}
+}
+
+p {
+	font-size: 1.25em;
+	line-height: 1.25em * 1.5;
 }
 
 
@@ -61,6 +66,7 @@ h3 {
 	font-family: $serif-font-stack;
 	font-size: 1.5em;
 	font-weight: 400;
+	color: $pure-black;
 }
 
 

@@ -235,23 +235,27 @@ p, h1, ul, ol, button, figure {
   font-weight: normal;
   src: url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.woff") format("woff"), url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.ttf") format("truetype"), url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.svg#freight") format("svg"); }
 body {
-  font: 100% "Avenir", sans-serif;
+  font: 100% "Freight", Georgia, serif;
   color: #717171;
   font-style: normal; }
 
 .project-intro-container h1 {
-  font-family: Georgia, serif;
+  font-family: "Freight", Georgia, serif;
   font-weight: 400;
   font-size: 3em;
   color: #1F1F1F;
   line-height: 1em; }
 .project-intro-container h4 {
-  font-size: 1.25em;
-  line-height: 1.875em;
+  font-size: 1.5em;
+  line-height: 2.25em;
   font-weight: 400; }
 .project-intro-container p {
-  font-family: Georgia, serif;
+  font-family: "Freight", Georgia, serif;
   font-style: italic; }
+
+p {
+  font-size: 1.25em;
+  line-height: 1.875em; }
 
 h2 {
   font-size: 1em;
@@ -259,9 +263,10 @@ h2 {
   margin-top: 1.5em; }
 
 h3 {
-  font-family: Georgia, serif;
+  font-family: "Freight", Georgia, serif;
   font-size: 1.5em;
-  font-weight: 400; }
+  font-weight: 400;
+  color: #000000; }
 
 h6, h2 {
   font-family: "Avenir", sans-serif;
