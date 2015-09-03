@@ -13,6 +13,10 @@ p, h1, ul, ol, button, figure{
 @include font-face("avenir", "../../assets/fonts/Avenir/avenirltstd-black-webfont", bold, $file-formats: eot woff svg);
 
 @include font-face("freight", "../../assets/fonts/Freight/freighttextprobook-regular-webfont", normal, $file-formats: eot woff ttf svg);
+@include font-face("freight italic", "../../assets/fonts/Freight/freighttext-bookitalic-webfont", italic, $file-formats: woff);
+@include font-face("freight display", "../../assets/fonts/Freight/f-disp-bold", bold, $file-formats: woff);
+@include font-face("freight sans", "../../assets/fonts/Freight/f-sans-book", normal, $file-formats: woff);
+@include font-face("freight sans", "../../assets/fonts/Freight/f-sans-bold", bold, $file-formats: woff);
 
 
 // Font Styling
@@ -26,7 +30,7 @@ body {
 
 .project-intro-container{
 	h1 {
-		font-family: $serif-font-stack;
+		font-family: $serif-heading-font-stack;
 		font-weight: 400;
 		font-size: 3em;
 		color: $darkest-grey;
@@ -40,8 +44,7 @@ body {
 	}
 
 	p {
-		font-family: $serif-font-stack;
-		font-style: italic;		
+		font-family: 'Freight Italic';
 	}
 }
 
@@ -60,10 +63,10 @@ h2 {
 }
 
 h3 {
-	font-family: $serif-font-stack;
-	font-size: 1.5em;
-	font-weight: 400;
-	color: $pure-black;
+	font-family: $serif-heading-font-stack;
+	font-size: 2em;
+	color: $dark-grey;
+	font-weight: bold;
 }
 
 
@@ -72,6 +75,7 @@ h6 {
 	text-transform: uppercase;
 	letter-spacing: $sans-letter-spacing;
 	color: $uppercase-content-headers;
+	font-weight: bold;
 
 }
 

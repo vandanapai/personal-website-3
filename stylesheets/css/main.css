@@ -219,13 +219,33 @@ p, h1, ul, ol, button, figure {
   font-style: normal;
   font-weight: normal;
   src: url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.woff") format("woff"), url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.ttf") format("truetype"), url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.svg#freight") format("svg"); }
+@font-face {
+  font-family: "freight italic";
+  font-style: normal;
+  font-weight: italic;
+  src: url("../../assets/fonts/Freight/freighttext-bookitalic-webfont.woff") format("woff"); }
+@font-face {
+  font-family: "freight display";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../../assets/fonts/Freight/f-disp-bold.woff") format("woff"); }
+@font-face {
+  font-family: "freight sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets/fonts/Freight/f-sans-book.woff") format("woff"); }
+@font-face {
+  font-family: "freight sans";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../../assets/fonts/Freight/f-sans-bold.woff") format("woff"); }
 body {
   font: 100% "Freight", Georgia, serif;
   color: #717171;
   font-style: normal; }
 
 .project-intro-container h1 {
-  font-family: "Freight", Georgia, serif;
+  font-family: "Freight Display", Georgia;
   font-weight: 400;
   font-size: 3em;
   color: #1F1F1F;
@@ -235,8 +255,7 @@ body {
   line-height: 2.25em;
   font-weight: 400; }
 .project-intro-container p {
-  font-family: "Freight", Georgia, serif;
-  font-style: italic; }
+  font-family: 'Freight Italic'; }
 
 p {
   font-size: 1.25em;
@@ -248,16 +267,17 @@ h2 {
   margin-top: 1.5em; }
 
 h3 {
-  font-family: "Freight", Georgia, serif;
-  font-size: 1.5em;
-  font-weight: 400;
-  color: #000000; }
+  font-family: "Freight Display", Georgia;
+  font-size: 2em;
+  color: #717171;
+  font-weight: bold; }
 
 h6, h2 {
-  font-family: "Avenir", sans-serif;
+  font-family: "Freight Sans", "Avenir", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.188em;
-  color: #C6C6C6; }
+  color: #C6C6C6;
+  font-weight: bold; }
 
 .project-content-container.dark p, .project-content-container.dark h3, .project-content-row.dark p, .project-content-row.dark h3 {
   color: #FFFFFF; }
@@ -265,7 +285,7 @@ h6, h2 {
   text-align: center; }
 
 a {
-  font-family: "Avenir", sans-serif;
+  font-family: "Freight Sans", "Avenir", sans-serif;
   color: inherit;
   letter-spacing: 0.188em; }
   a.side-nav {
