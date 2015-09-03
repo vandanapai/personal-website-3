@@ -215,21 +215,6 @@ p, h1, ul, ol, button, figure {
   font-weight: bold;
   src: url("../../assets/fonts/Avenir/avenirltstd-black-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Avenir/avenirltstd-black-webfont.woff") format("woff"), url("../../assets/fonts/Avenir/avenirltstd-black-webfont.svg#avenir") format("svg"); }
 @font-face {
-  font-family: "lora";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../../assets/fonts/Lora/Lora-Regular.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Lora/Lora-Regular.woff") format("woff"), url("../../assets/fonts/Lora/Lora-Regular.ttf") format("truetype"), url("../../assets/fonts/Lora/Lora-Regular.svg#lora") format("svg"); }
-@font-face {
-  font-family: "lora";
-  font-style: normal;
-  font-weight: bold;
-  src: url("../../assets/fonts/Lora/Lora-Bold.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Lora/Lora-Bold.woff") format("woff"), url("../../assets/fonts/Lora/Lora-Bold.ttf") format("truetype"), url("../../assets/fonts/Lora/Lora-Bold.svg#lora") format("svg"); }
-@font-face {
-  font-family: "lora";
-  font-style: normal;
-  font-weight: italic;
-  src: url("../../assets/fonts/Lora/Lora-Italic.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Lora/Lora-Italic.woff") format("woff"), url("../../assets/fonts/Lora/Lora-Italic.ttf") format("truetype"), url("../../assets/fonts/Lora/Lora-Italic.svg#lora") format("svg"); }
-@font-face {
   font-family: "freight";
   font-style: normal;
   font-weight: normal;

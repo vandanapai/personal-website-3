@@ -12,11 +12,8 @@ p, h1, ul, ol, button, figure{
 @include font-face("avenir", "../../assets/fonts/Avenir/avenirltstd-book-webfont", $file-formats: eot woff svg);
 @include font-face("avenir", "../../assets/fonts/Avenir/avenirltstd-black-webfont", bold, $file-formats: eot woff svg);
 
-@include font-face("lora", "../../assets/fonts/Lora/Lora-Regular", normal, $file-formats: eot woff ttf svg);
-@include font-face("lora", "../../assets/fonts/Lora/Lora-Bold", bold, $file-formats: eot woff ttf svg);
-@include font-face("lora", "../../assets/fonts/Lora/Lora-Italic", italic, $file-formats: eot woff ttf svg);
-
 @include font-face("freight", "../../assets/fonts/Freight/freighttextprobook-regular-webfont", normal, $file-formats: eot woff ttf svg);
+
 
 // Font Styling
 
