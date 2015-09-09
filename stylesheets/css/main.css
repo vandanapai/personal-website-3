@@ -554,8 +554,8 @@ body {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 31.76157%;
-    margin-left: 34.11922%; }
+    width: 65.88078%;
+    margin-left: 17.05961%; }
     .project-content-row.centered:last-child {
       margin-right: 0; }
     @media screen and (max-width: 768px) {
@@ -580,8 +580,8 @@ body {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 48.82117%;
-    margin-left: 25.58941%; }
+    width: 65.88078%;
+    margin-left: 17.05961%; }
     .project-content-row.centered-wide:last-child {
       margin-right: 0; }
     @media screen and (max-width: 768px) {
@@ -743,9 +743,6 @@ body {
     background-color: #DB0A40; }
   .project-tile.personal {
     background-color: #55C3C2; }
-
-.centered, .centered-wide {
-  text-align: center; }
 
 .project-content-container, .project-intro-container {
   float: none;

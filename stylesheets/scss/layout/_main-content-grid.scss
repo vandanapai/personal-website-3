@@ -85,8 +85,8 @@ body {
 	}
 
 	&.centered {
-		@include span-columns(4 of 12);
-		@include shift(4);
+		@include span-columns(8 of 12);
+		@include shift(2);
 
 		@media screen and (max-width: 768px){
 			@include span-columns(4 of 8);
@@ -102,8 +102,8 @@ body {
 	}
 
 	&.centered-wide {
-		@include span-columns(6 of 12);
-		@include shift(3);
+		@include span-columns(8 of 12);
+		@include shift(2);
 
 		@media screen and (max-width: 768px){
 			@include span-columns(6 of 8);
