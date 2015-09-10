@@ -22,7 +22,7 @@ p, h1, ul, ol, button, figure{
 // Font Styling
 
 body {
-	font: 100% $serif-font-stack;
+	font: 100% $sans-font-stack;
 	color: $main-body-font-color;
 	font-style: normal;
 }
@@ -30,9 +30,9 @@ body {
 
 .project-intro-container{
 	h1 {
-		font-family: $serif-heading-font-stack;
+		font-family: $serif-font-stack;
 		font-weight: 400;
-		font-size: 3em;
+		font-size: 4em;
 		color: $darkest-grey;
 		line-height: 1em;
 	}
@@ -63,9 +63,9 @@ h2 {
 }
 
 h3 {
-	font-family: $serif-heading-font-stack;
+	font-family: $serif-font-stack;
 	font-size: 2em;
-	color: $dark-grey;
+	color: $darkest-grey;
 	font-weight: bold;
 }
 
