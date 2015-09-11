@@ -36,7 +36,8 @@ body {
 }
 
 .project-intro-title {
-	@include span-columns(5 of 12);
+	@include span-columns(8 of 12);
+	@include shift(2);
 
 	@media screen and (max-width: 768px){
 		@include span-columns(12 of 12);
@@ -44,8 +45,8 @@ body {
 }
 
 .project-intro-info {
-	@include span-columns(6 of 12);
-	@include shift(1);
+	@include span-columns(8 of 12);
+	@include shift(2);
 
 	@media screen and (max-width: 768px){
 		@include span-columns(12 of 12);
@@ -53,7 +54,7 @@ body {
     }
 }
 
-.project-content-row {
+.project-content-row, .project-content-image {
 
 	&.thirds {
 		@include span-columns(4 of 12);

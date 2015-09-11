@@ -9,20 +9,20 @@ p, h1, ul, ol, button, figure{
 
 // Import Fonts
 
-@include font-face("avenir", "../../assets/fonts/Avenir/avenirltstd-book-webfont", $file-formats: eot woff svg);
-@include font-face("avenir", "../../assets/fonts/Avenir/avenirltstd-black-webfont", bold, $file-formats: eot woff svg);
-
-@include font-face("freight", "../../assets/fonts/Freight/freighttextprobook-regular-webfont", normal, $file-formats: eot woff ttf svg);
-@include font-face("freight italic", "../../assets/fonts/Freight/freighttext-bookitalic-webfont", italic, $file-formats: woff);
-@include font-face("freight display", "../../assets/fonts/Freight/f-disp-bold", bold, $file-formats: woff);
-@include font-face("freight sans", "../../assets/fonts/Freight/f-sans-book", normal, $file-formats: woff);
-@include font-face("freight sans", "../../assets/fonts/Freight/f-sans-bold", bold, $file-formats: woff);
+@include font-face("avenir", "../../assets/fonts/Avenir/avenirltstd-book-webfont", 400, normal, $file-formats: eot woff svg);
+@include font-face("avenir", "../../assets/fonts/Avenir/avenirltstd-black-webfont", 700, normal, $file-formats: eot woff svg);
+@include font-face("freight", "../../assets/fonts/Freight/freighttextprobook-regular-webfont", 400, normal, $file-formats: eot woff ttf svg);
+@include font-face("freight", "../../assets/fonts/Freight/freighttext-bookitalic-webfont", 400, italic, $file-formats: woff);
+@include font-face("freight sans", "../../assets/fonts/Freight/f-sans-book", 400, normal, $file-formats: woff);
+@include font-face("freight sans", "../../assets/fonts/Freight/f-sans-bold", 700, normal, $file-formats: woff);
+@include font-face("freight big", "../../assets/fonts/Freight/Freight-BigBook", 400, normal, $file-formats: eot woff ttf);
+@include font-face("freight big", "../../assets/fonts/Freight/Freight-BigBookItalic", 400, italic, $file-formats: eot woff ttf);
 
 
 // Font Styling
 
 body {
-	font: 100% $sans-font-stack;
+	font: 100% $serif-font-stack;
 	color: $main-body-font-color;
 	font-style: normal;
 }
@@ -30,21 +30,28 @@ body {
 
 .project-intro-container{
 	h1 {
-		font-family: $serif-font-stack;
+		font-family: $serif-heading-font-stack;
 		font-weight: 400;
 		font-size: 4em;
 		color: $darkest-grey;
 		line-height: 1em;
+		margin-top: -115px;
+		text-align: center;
+		text-transform: uppercase;
 	}
 
 	h4 {
+		font-family: $serif-font-stack;
 		font-size: 1.5em;
 		line-height: 1.5em * 1.5;
 		font-weight: 400;
 	}
 
 	p {
-		font-family: 'Freight Italic';
+		font-family: $sans-font-stack;
+		font-size: 1em;
+		line-height: 1.5em;
+		max-width: 300px;
 	}
 }
 
@@ -63,10 +70,10 @@ h2 {
 }
 
 h3 {
-	font-family: $serif-font-stack;
-	font-size: 2em;
+	font-family: $serif-heading-font-stack;
+	font-size: 2.15em;
 	color: $darkest-grey;
-	font-weight: bold;
+	font-weight: 400;
 }
 
 

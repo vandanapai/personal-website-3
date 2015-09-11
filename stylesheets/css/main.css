@@ -207,55 +207,67 @@ p, h1, ul, ol, button, figure {
 @font-face {
   font-family: "avenir";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   src: url("../../assets/fonts/Avenir/avenirltstd-book-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Avenir/avenirltstd-book-webfont.woff") format("woff"), url("../../assets/fonts/Avenir/avenirltstd-book-webfont.svg#avenir") format("svg"); }
 @font-face {
   font-family: "avenir";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   src: url("../../assets/fonts/Avenir/avenirltstd-black-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Avenir/avenirltstd-black-webfont.woff") format("woff"), url("../../assets/fonts/Avenir/avenirltstd-black-webfont.svg#avenir") format("svg"); }
 @font-face {
   font-family: "freight";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   src: url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.woff") format("woff"), url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.ttf") format("truetype"), url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.svg#freight") format("svg"); }
 @font-face {
-  font-family: "freight italic";
-  font-style: normal;
-  font-weight: italic;
+  font-family: "freight";
+  font-style: italic;
+  font-weight: 400;
   src: url("../../assets/fonts/Freight/freighttext-bookitalic-webfont.woff") format("woff"); }
-@font-face {
-  font-family: "freight display";
-  font-style: normal;
-  font-weight: bold;
-  src: url("../../assets/fonts/Freight/f-disp-bold.woff") format("woff"); }
 @font-face {
   font-family: "freight sans";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   src: url("../../assets/fonts/Freight/f-sans-book.woff") format("woff"); }
 @font-face {
   font-family: "freight sans";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   src: url("../../assets/fonts/Freight/f-sans-bold.woff") format("woff"); }
+@font-face {
+  font-family: "freight big";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/Freight/Freight-BigBook.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/Freight-BigBook.woff") format("woff"), url("../../assets/fonts/Freight/Freight-BigBook.ttf") format("truetype"); }
+@font-face {
+  font-family: "freight big";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../../assets/fonts/Freight/Freight-BigBookItalic.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/Freight-BigBookItalic.woff") format("woff"), url("../../assets/fonts/Freight/Freight-BigBookItalic.ttf") format("truetype"); }
 body {
-  font: 100% "Freight Sans", "Avenir", sans-serif;
+  font: 100% "Freight", Georgia, serif;
   color: #717171;
   font-style: normal; }
 
 .project-intro-container h1 {
-  font-family: "Freight", Georgia, serif;
+  font-family: "Freight Big", Georgia;
   font-weight: 400;
   font-size: 4em;
   color: #1F1F1F;
-  line-height: 1em; }
+  line-height: 1em;
+  margin-top: -115px;
+  text-align: center;
+  text-transform: uppercase; }
 .project-intro-container h4 {
+  font-family: "Freight", Georgia, serif;
   font-size: 1.5em;
   line-height: 2.25em;
   font-weight: 400; }
 .project-intro-container p {
-  font-family: 'Freight Italic'; }
+  font-family: "Freight Sans", "Avenir", sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  max-width: 300px; }
 
 p {
   font-size: 1.25em;
@@ -267,10 +279,10 @@ h2 {
   margin-top: 1.5em; }
 
 h3 {
-  font-family: "Freight", Georgia, serif;
-  font-size: 2em;
+  font-family: "Freight Big", Georgia;
+  font-size: 2.15em;
   color: #1F1F1F;
-  font-weight: bold; }
+  font-weight: 400; }
 
 h6, h2 {
   font-family: "Freight Sans", "Avenir", sans-serif;
@@ -470,7 +482,8 @@ body {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 40.29137%; }
+  width: 65.88078%;
+  margin-left: 17.05961%; }
   .project-intro-title:last-child {
     margin-right: 0; }
   @media screen and (max-width: 768px) {
@@ -486,8 +499,8 @@ body {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%;
-  margin-left: 8.5298%; }
+  width: 65.88078%;
+  margin-left: 17.05961%; }
   .project-intro-info:last-child {
     margin-right: 0; }
   @media screen and (max-width: 768px) {
@@ -500,117 +513,117 @@ body {
       .project-intro-info:last-child {
         margin-right: 0; } }
 
-.project-content-row {
+.project-content-row, .project-content-image {
   /* for text on sections with image backgrounds and dark overlay */ }
-  .project-content-row.thirds {
+  .project-content-row.thirds, .project-content-image.thirds {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%; }
-    .project-content-row.thirds:last-child {
+    .project-content-row.thirds:last-child, .project-content-image.thirds:last-child {
       margin-right: 0; }
     @media screen and (max-width: 768px) {
-      .project-content-row.thirds {
+      .project-content-row.thirds, .project-content-image.thirds {
         float: left;
         display: block;
         margin-right: 2.35765%;
         width: 100%; }
-        .project-content-row.thirds:last-child {
+        .project-content-row.thirds:last-child, .project-content-image.thirds:last-child {
           margin-right: 0; } }
-    .project-content-row.thirds img {
+    .project-content-row.thirds img, .project-content-image.thirds img {
       margin: auto;
       display: block; }
-  .project-content-row.left {
+  .project-content-row.left, .project-content-image.left {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%; }
-    .project-content-row.left:last-child {
+    .project-content-row.left:last-child, .project-content-image.left:last-child {
       margin-right: 0; }
     @media screen and (max-width: 768px) {
-      .project-content-row.left {
+      .project-content-row.left, .project-content-image.left {
         float: left;
         display: block;
         margin-right: 2.35765%;
         width: 100%; }
-        .project-content-row.left:last-child {
+        .project-content-row.left:last-child, .project-content-image.left:last-child {
           margin-right: 0; } }
-  .project-content-row.right {
+  .project-content-row.right, .project-content-image.right {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%; }
-    .project-content-row.right:last-child {
+    .project-content-row.right:last-child, .project-content-image.right:last-child {
       margin-right: 0; }
     @media screen and (max-width: 768px) {
-      .project-content-row.right {
+      .project-content-row.right, .project-content-image.right {
         float: left;
         display: block;
         margin-right: 2.35765%;
         width: 100%; }
-        .project-content-row.right:last-child {
+        .project-content-row.right:last-child, .project-content-image.right:last-child {
           margin-right: 0; } }
-  .project-content-row.centered {
+  .project-content-row.centered, .project-content-image.centered {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 65.88078%;
     margin-left: 17.05961%; }
-    .project-content-row.centered:last-child {
+    .project-content-row.centered:last-child, .project-content-image.centered:last-child {
       margin-right: 0; }
     @media screen and (max-width: 768px) {
-      .project-content-row.centered {
+      .project-content-row.centered, .project-content-image.centered {
         float: left;
         display: block;
         margin-right: 3.57866%;
         width: 48.21067%;
         margin-left: 25.89467%; }
-        .project-content-row.centered:last-child {
+        .project-content-row.centered:last-child, .project-content-image.centered:last-child {
           margin-right: 0; } }
     @media screen and (max-width: 480px) {
-      .project-content-row.centered {
+      .project-content-row.centered, .project-content-image.centered {
         float: left;
         display: block;
         margin-right: 7.42297%;
         width: 46.28851%;
         margin-left: 26.85574%; }
-        .project-content-row.centered:last-child {
+        .project-content-row.centered:last-child, .project-content-image.centered:last-child {
           margin-right: 0; } }
-  .project-content-row.centered-wide {
+  .project-content-row.centered-wide, .project-content-image.centered-wide {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 65.88078%;
     margin-left: 17.05961%; }
-    .project-content-row.centered-wide:last-child {
+    .project-content-row.centered-wide:last-child, .project-content-image.centered-wide:last-child {
       margin-right: 0; }
     @media screen and (max-width: 768px) {
-      .project-content-row.centered-wide {
+      .project-content-row.centered-wide, .project-content-image.centered-wide {
         float: left;
         display: block;
         margin-right: 3.57866%;
         width: 74.10533%;
         margin-left: 12.94733%; }
-        .project-content-row.centered-wide:last-child {
+        .project-content-row.centered-wide:last-child, .project-content-image.centered-wide:last-child {
           margin-right: 0; } }
     @media screen and (max-width: 480px) {
-      .project-content-row.centered-wide {
+      .project-content-row.centered-wide, .project-content-image.centered-wide {
         float: left;
         display: block;
         margin-right: 7.42297%;
         width: 73.14426%;
         margin-left: 26.85574%; }
-        .project-content-row.centered-wide:last-child {
+        .project-content-row.centered-wide:last-child, .project-content-image.centered-wide:last-child {
           margin-right: 0; } }
   @media screen and (max-width: 768px) {
-    .project-content-row {
+    .project-content-row, .project-content-image {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 100%; }
-      .project-content-row:last-child {
+      .project-content-row:last-child, .project-content-image:last-child {
         margin-right: 0; } }
-  .project-content-row.bg-overlay {
+  .project-content-row.bg-overlay, .project-content-image.bg-overlay {
     z-index: 2;
     position: relative; }
 
