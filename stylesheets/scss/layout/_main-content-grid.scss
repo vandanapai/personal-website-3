@@ -41,6 +41,7 @@ body {
 
 	@media screen and (max-width: 768px){
 		@include span-columns(12 of 12);
+		@include shift(0);
     }
 }
 
@@ -90,14 +91,14 @@ body {
 		@include shift(2);
 
 		@media screen and (max-width: 768px){
-			@include span-columns(4 of 8);
-			@include shift(2);
+			@include span-columns(6 of 8);
+			@include shift(1);
 
 	    }
 
 		@media screen and (max-width: 480px){
-			@include span-columns(2 of 4);
-			@include shift(1);
+			@include span-columns(4 of 4);
+			@include shift(0);
 
 	    }
 	}
@@ -113,8 +114,8 @@ body {
 	    }
 
 		@media screen and (max-width: 480px){
-			@include span-columns(3 of 4);
-			@include shift(1);
+			@include span-columns(4 of 4);
+			@include shift(0);
 
 	    }
 	}
