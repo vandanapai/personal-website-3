@@ -68,6 +68,7 @@ body {
 
 .project-content-row, .project-content-image {
 
+
 	&.thirds {
 		@include span-columns(4 of 12);
 
@@ -81,21 +82,19 @@ body {
 	    }
 	}
 
-	&.left {
+	&.left, &.right {
 		@include span-columns(6 of 12);
 
 		@media screen and (max-width: 768px){
 			@include span-columns(12 of 12);
 	    }
+
+	  	img {
+			margin-top: 1.5em;
+		}
+
 	}
 
-	&.right {
-		@include span-columns(6 of 12);
-
-		@media screen and (max-width: 768px){
-			@include span-columns(12 of 12);
-	    }
-	}
 
 	&.centered {
 		@include span-columns(8 of 12);
@@ -148,15 +147,6 @@ body {
 }
 
 .project-content-image {
-	&.right {
-		@include span-columns(6 of 12);
-
-		text-align: center;
-		
-		@media screen and (max-width: 768px){
-        	@include span-columns(12 of 12);
-    	}
-	}
 
 	&.img-grid {
 		@include span-columns(12 of 12);

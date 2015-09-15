@@ -545,36 +545,23 @@ body {
     .project-content-row.thirds img, .project-content-image.thirds img {
       margin: auto;
       display: block; }
-  .project-content-row.left, .project-content-image.left {
+  .project-content-row.left, .project-content-row.right, .project-content-image.left, .project-content-image.right {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%; }
-    .project-content-row.left:last-child, .project-content-image.left:last-child {
+    .project-content-row.left:last-child, .project-content-row.right:last-child, .project-content-image.left:last-child, .project-content-image.right:last-child {
       margin-right: 0; }
     @media screen and (max-width: 768px) {
-      .project-content-row.left, .project-content-image.left {
+      .project-content-row.left, .project-content-row.right, .project-content-image.left, .project-content-image.right {
         float: left;
         display: block;
         margin-right: 2.35765%;
         width: 100%; }
-        .project-content-row.left:last-child, .project-content-image.left:last-child {
+        .project-content-row.left:last-child, .project-content-row.right:last-child, .project-content-image.left:last-child, .project-content-image.right:last-child {
           margin-right: 0; } }
-  .project-content-row.right, .project-content-image.right {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
-    .project-content-row.right:last-child, .project-content-image.right:last-child {
-      margin-right: 0; }
-    @media screen and (max-width: 768px) {
-      .project-content-row.right, .project-content-image.right {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%; }
-        .project-content-row.right:last-child, .project-content-image.right:last-child {
-          margin-right: 0; } }
+    .project-content-row.left img, .project-content-row.right img, .project-content-image.left img, .project-content-image.right img {
+      margin-top: 1.5em; }
   .project-content-row.centered, .project-content-image.centered {
     float: left;
     display: block;
@@ -639,22 +626,6 @@ body {
     z-index: 2;
     position: relative; }
 
-.project-content-image.right {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
-  text-align: center; }
-  .project-content-image.right:last-child {
-    margin-right: 0; }
-  @media screen and (max-width: 768px) {
-    .project-content-image.right {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      .project-content-image.right:last-child {
-        margin-right: 0; } }
 .project-content-image.img-grid {
   float: left;
   display: block;
