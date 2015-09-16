@@ -205,25 +205,10 @@ p, h1, ul, ol, button, figure {
   line-height: 24px; }
 
 @font-face {
-  font-family: "avenir";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../../assets/fonts/Avenir/avenirltstd-book-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Avenir/avenirltstd-book-webfont.woff") format("woff"), url("../../assets/fonts/Avenir/avenirltstd-book-webfont.svg#avenir") format("svg"); }
-@font-face {
-  font-family: "avenir";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../../assets/fonts/Avenir/avenirltstd-black-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Avenir/avenirltstd-black-webfont.woff") format("woff"), url("../../assets/fonts/Avenir/avenirltstd-black-webfont.svg#avenir") format("svg"); }
-@font-face {
   font-family: "freight";
   font-style: normal;
   font-weight: 400;
-  src: url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.woff") format("woff"), url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.ttf") format("truetype"), url("../../assets/fonts/Freight/freighttextprobook-regular-webfont.svg#freight") format("svg"); }
-@font-face {
-  font-family: "freight";
-  font-style: italic;
-  font-weight: 400;
-  src: url("../../assets/fonts/Freight/freighttext-bookitalic-webfont.woff") format("woff"); }
+  src: url("../../assets/fonts/Freight/f-text-book.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/f-text-book.woff") format("woff"), url("../../assets/fonts/Freight/f-text-book.ttf") format("truetype"), url("../../assets/fonts/Freight/f-text-book.svg#freight") format("svg"); }
 @font-face {
   font-family: "freight sans";
   font-style: normal;
@@ -235,27 +220,22 @@ p, h1, ul, ol, button, figure {
   font-weight: 700;
   src: url("../../assets/fonts/Freight/f-sans-bold.woff") format("woff"); }
 @font-face {
-  font-family: "freight big";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../../assets/fonts/Freight/Freight-BigBook.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/Freight-BigBook.woff") format("woff"), url("../../assets/fonts/Freight/Freight-BigBook.ttf") format("truetype"); }
-@font-face {
-  font-family: "freight big";
-  font-style: italic;
-  font-weight: 400;
-  src: url("../../assets/fonts/Freight/Freight-BigBookItalic.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/Freight-BigBookItalic.woff") format("woff"), url("../../assets/fonts/Freight/Freight-BigBookItalic.ttf") format("truetype"); }
-@font-face {
-  font-family: "playfair";
+  font-family: "freight display";
   font-style: normal;
   font-weight: 700;
-  src: url("../../assets/fonts/Playfair/PlayfairDisplay-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Playfair/PlayfairDisplay-Bold-webfont.woff") format("woff"), url("../../assets/fonts/Playfair/PlayfairDisplay-Bold-webfont.ttf") format("truetype"); }
+  src: url("../../assets/fonts/Freight/f-display-bold.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/f-display-bold.woff") format("woff"), url("../../assets/fonts/Freight/f-display-bold.ttf") format("truetype"), url("../../assets/fonts/Freight/f-display-bold.svg#freight display") format("svg"); }
+@font-face {
+  font-family: "freight display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/Freight/f-display-book.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/f-display-book.woff") format("woff"), url("../../assets/fonts/Freight/f-display-book.ttf") format("truetype"), url("../../assets/fonts/Freight/f-display-book.svg#freight display") format("svg"); }
 body {
   font: 100% "Freight Sans", "Avenir", sans-serif;
   color: #717171;
   font-style: normal; }
 
 .project-intro-container h1 {
-  font-family: 'Playfair';
+  font-family: "Freight Display", "Freight Big", Georgia;
   font-weight: 700;
   font-size: 4em;
   color: #1F1F1F;
@@ -269,12 +249,13 @@ body {
 .project-intro-container h4 {
   font-family: "Freight", Georgia, serif;
   font-size: 1.5em;
-  line-height: 2.25em;
-  font-weight: 400; }
+  line-height: 1.5em;
+  font-weight: 400;
+  text-align: center; }
 
 p {
   font-size: 1.25em;
-  line-height: 1.875em; }
+  line-height: 1.5em; }
   p.sub, .project-intro-container p {
     font-size: 1em;
     line-height: 1.5em;
@@ -286,7 +267,7 @@ h2 {
   margin-top: 1.5em; }
 
 h3 {
-  font-family: "Freight Big", Georgia;
+  font-family: "Freight Display", "Freight Big", Georgia;
   font-size: 2.15em;
   color: #1F1F1F;
   font-weight: 400; }
@@ -772,5 +753,9 @@ body {
     background-color: #EE9344; }
   .project-content-container.cocktail-purple, .project-intro-container.cocktail-purple {
     background-color: #773344; }
+  @media screen and (max-width: 768px) {
+    .project-content-container, .project-intro-container {
+      padding-left: 20px;
+      padding-right: 20px; } }
 
 /*# sourceMappingURL=main.css.map */

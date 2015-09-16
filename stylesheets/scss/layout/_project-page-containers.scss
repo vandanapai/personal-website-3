@@ -18,4 +18,9 @@
 	&.cocktail-purple {
 		background-color: $cocktail-purple;
 	}
+
+	@media screen and (max-width: 768px){
+		padding-left: 20px;
+		padding-right: 20px;
+	   }
 }

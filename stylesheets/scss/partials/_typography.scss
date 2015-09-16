@@ -9,16 +9,11 @@ p, h1, ul, ol, button, figure{
 
 // Import Fonts
 
-@include font-face("avenir", "../../assets/fonts/Avenir/avenirltstd-book-webfont", 400, normal, $file-formats: eot woff svg);
-@include font-face("avenir", "../../assets/fonts/Avenir/avenirltstd-black-webfont", 700, normal, $file-formats: eot woff svg);
-@include font-face("freight", "../../assets/fonts/Freight/freighttextprobook-regular-webfont", 400, normal, $file-formats: eot woff ttf svg);
-@include font-face("freight", "../../assets/fonts/Freight/freighttext-bookitalic-webfont", 400, italic, $file-formats: woff);
+@include font-face("freight", "../../assets/fonts/Freight/f-text-book", 400, normal, $file-formats: eot woff ttf svg);
 @include font-face("freight sans", "../../assets/fonts/Freight/f-sans-book", 400, normal, $file-formats: woff);
 @include font-face("freight sans", "../../assets/fonts/Freight/f-sans-bold", 700, normal, $file-formats: woff);
-@include font-face("freight big", "../../assets/fonts/Freight/Freight-BigBook", 400, normal, $file-formats: eot woff ttf);
-@include font-face("freight big", "../../assets/fonts/Freight/Freight-BigBookItalic", 400, italic, $file-formats: eot woff ttf);
-@include font-face("playfair", "../../assets/fonts/Playfair/PlayfairDisplay-Bold-webfont", 700, normal, $file-formats: eot woff ttf);
-
+@include font-face("freight display", "../../assets/fonts/Freight/f-display-bold", 700, normal, $file-formats: eot woff ttf svg);
+@include font-face("freight display", "../../assets/fonts/Freight/f-display-book", 400, normal, $file-formats: eot woff ttf svg);
 
 // Font Styling
 
@@ -31,7 +26,7 @@ body {
 
 .project-intro-container{
 	h1 {
-		font-family: 'Playfair';
+		font-family: $serif-heading-font-stack;
 		font-weight: 700;
 		font-size: 4em;
 		color: $darkest-grey;
@@ -47,8 +42,9 @@ body {
 	h4 {
 		font-family: $serif-font-stack;
 		font-size: 1.5em;
-		line-height: 1.5em * 1.5;
+		line-height: 1.5em;
 		font-weight: 400;
+		text-align: center;
 	}
 
 	p {
@@ -58,7 +54,7 @@ body {
 
 p {
 	font-size: 1.25em;
-	line-height: 1.25em * 1.5;
+	line-height: 1.5em;
 
 	&.sub {
 		font-size: 1em;
