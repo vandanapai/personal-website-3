@@ -1,0 +1,13 @@
+.main-nav-container {
+	position: fixed;
+	background-color: $body-background;
+	width: 100%;
+
+	ul {
+		li {
+			display: inline;
+			list-style-type: none;
+			padding-right: 20px;
+		}
+	}
+}

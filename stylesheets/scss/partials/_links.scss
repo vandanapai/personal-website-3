@@ -3,7 +3,8 @@ a {
 	color: inherit;
 	letter-spacing: $sans-letter-spacing;
 
-	&.side-nav {
+	&.main-nav {
+		color: $pure-white;
 		text-transform: uppercase;
 		font-size: $side-bar-nav-font-size;
 		@include transition (all 0.3s ease-in-out);

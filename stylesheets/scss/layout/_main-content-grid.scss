@@ -1,11 +1,11 @@
 body {
 	width: 100%;
 	height: auto;
-	background: $pure-black;
+	background: $body-background;
 }
 
 .body-container {
-	max-width: 1456px;
+	max-width: 1300px;
 	margin: auto;	
 }
 
@@ -13,13 +13,13 @@ body {
 	@include outer-container;
 }
 
-#main-content-container {
-	@media screen and (min-width: 768px){
-		margin-left: $side-bar-width;
-    }
-}
+
 
 .main-content-container {
+	background-color: $body-background;
+}
+
+.main-container {
 	background-color: $pure-white;
 }
 
