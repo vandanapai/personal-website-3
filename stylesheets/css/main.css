@@ -244,14 +244,19 @@ p, h1, ul, ol, button, figure {
   font-style: italic;
   font-weight: 400;
   src: url("../../assets/fonts/Freight/Freight-BigBookItalic.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/Freight-BigBookItalic.woff") format("woff"), url("../../assets/fonts/Freight/Freight-BigBookItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: "playfair";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../assets/fonts/Playfair/PlayfairDisplay-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Playfair/PlayfairDisplay-Bold-webfont.woff") format("woff"), url("../../assets/fonts/Playfair/PlayfairDisplay-Bold-webfont.ttf") format("truetype"); }
 body {
   font: 100% "Freight", Georgia, serif;
   color: #717171;
   font-style: normal; }
 
 .project-intro-container h1 {
-  font-family: "Freight Big", Georgia;
-  font-weight: 400;
+  font-family: 'Playfair';
+  font-weight: 700;
   font-size: 4em;
   color: #1F1F1F;
   line-height: 1em;

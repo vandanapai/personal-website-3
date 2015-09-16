@@ -17,6 +17,7 @@ p, h1, ul, ol, button, figure{
 @include font-face("freight sans", "../../assets/fonts/Freight/f-sans-bold", 700, normal, $file-formats: woff);
 @include font-face("freight big", "../../assets/fonts/Freight/Freight-BigBook", 400, normal, $file-formats: eot woff ttf);
 @include font-face("freight big", "../../assets/fonts/Freight/Freight-BigBookItalic", 400, italic, $file-formats: eot woff ttf);
+@include font-face("playfair", "../../assets/fonts/Playfair/PlayfairDisplay-Bold-webfont", 700, normal, $file-formats: eot woff ttf);
 
 
 // Font Styling
@@ -30,8 +31,8 @@ body {
 
 .project-intro-container{
 	h1 {
-		font-family: $serif-heading-font-stack;
-		font-weight: 400;
+		font-family: 'Playfair';
+		font-weight: 700;
 		font-size: 4em;
 		color: $darkest-grey;
 		line-height: 1em;
