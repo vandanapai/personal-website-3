@@ -245,7 +245,7 @@ p, h1, ul, ol, button, figure {
   font-weight: 400;
   src: url("../../assets/fonts/Freight/Freight-BigBookItalic.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/Freight-BigBookItalic.woff") format("woff"), url("../../assets/fonts/Freight/Freight-BigBookItalic.ttf") format("truetype"); }
 body {
-  font: 100% "Freight", Georgia, serif;
+  font: 100% "Freight Sans", "Avenir", sans-serif;
   color: #717171;
   font-style: normal; }
 
@@ -266,15 +266,14 @@ body {
   font-size: 1.5em;
   line-height: 2.25em;
   font-weight: 400; }
-.project-intro-container p {
-  font-family: "Freight Sans", "Avenir", sans-serif;
-  font-size: 1em;
-  line-height: 1.5em;
-  max-width: 300px; }
 
 p {
   font-size: 1.25em;
   line-height: 1.875em; }
+  p.sub, .project-intro-container p {
+    font-size: 1em;
+    line-height: 1.5em;
+    max-width: 300px; }
 
 h2 {
   font-size: 1em;
@@ -286,6 +285,8 @@ h3 {
   font-size: 2.15em;
   color: #1F1F1F;
   font-weight: 400; }
+  h3.centered {
+    text-align: center; }
 
 h6, h2 {
   font-family: "Freight Sans", "Avenir", sans-serif;
@@ -298,6 +299,15 @@ h6, h2 {
   color: #FFFFFF; }
 .project-content-container.thirds p, .project-content-row.thirds p {
   text-align: center; }
+
+/* Highlight */
+::-moz-selection {
+  background-color: #1F1F1F;
+  color: #FFFFFF; }
+
+::selection {
+  background-color: #1F1F1F;
+  color: #FFFFFF; }
 
 a {
   font-family: "Freight Sans", "Avenir", sans-serif;
