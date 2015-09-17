@@ -6,12 +6,16 @@ a {
 
 	&.main-nav {
 		color: $pure-white;
+		font-weight: bold;
 		text-transform: uppercase;
-		font-size: $side-bar-nav-font-size;
+		font-size: $main-nav-font-size;
+		padding: 0px 2px 0px 2px;
 		@include transition (all 0.3s ease-in-out);
 
 		&:hover, &:focus, &:active {
-			color: $pure-white;
+			color: $darkest-grey;
+			background-color: $personal-teal;
+			padding: 0px 2px 0px 2px;
 
 		}
 	

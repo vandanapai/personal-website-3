@@ -265,8 +265,7 @@ h1 {
   font-weight: 700;
   font-size: 4em;
   color: #FFFFFF;
-  line-height: 1em;
-  text-transform: uppercase; }
+  line-height: 1em; }
 
 h2 {
   font-size: 1em;
@@ -313,24 +312,19 @@ a {
   letter-spacing: 0.188em; }
   a.main-nav {
     color: #FFFFFF;
+    font-weight: bold;
     text-transform: uppercase;
-    font-size: 1.125em;
+    font-size: 0.75em;
+    padding: 0px 2px 0px 2px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
     a.main-nav:hover, a.main-nav:focus, a.main-nav:active {
-      color: #FFFFFF; }
+      color: #1F1F1F;
+      background-color: #55C3C2;
+      padding: 0px 2px 0px 2px; }
   a h1 {
     letter-spacing: 0px; }
-
-ul {
-  padding: 0; }
-  ul.side-nav-links {
-    text-align: center;
-    list-style-type: none;
-    margin-top: 3.375em; }
-    ul.side-nav-links li {
-      margin-bottom: 3.375em; }
 
 button {
   border: 0 none;
@@ -688,6 +682,10 @@ body {
       .img-box:last-child {
         margin-right: 0; } }
 
+footer {
+  text-align: center;
+  padding: 25px; }
+
 .main-nav-container {
   position: fixed;
   background-color: #1F1F1F;
@@ -772,7 +770,7 @@ body {
   height: 450px; }
   .project-tile.boost {
     background-color: #FEB787;
-    border: #FEB787; }
+    border: #ffb786; }
   .project-tile.cocktail {
     background-color: #D44D5C;
     border: #D44D5C; }

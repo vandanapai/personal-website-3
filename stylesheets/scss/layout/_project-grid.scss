@@ -60,7 +60,7 @@
 
 	&.boost {
 		background-color: $boost-orange;
-		border: $boost-orange;
+		border: saturate($boost-orange, 10%);
 
 	}
 
