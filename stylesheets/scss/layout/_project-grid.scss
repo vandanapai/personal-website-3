@@ -12,7 +12,20 @@
 
 		}
 
+		.project-tile-border {
+			position: absolute;
+			height: $project-tile-height;
+			width: 100%;
+			top: 20px;
+			left: 20px;
+			border: 5px solid;
+			@include border-color(inherit);
+		}
+
 		@include span-columns(7 of 12);
+
+
+		/* STYLING FOR ALL ITEMS THAT ARE FEATURED ON THE RIGHT SIDE */
 
 		&.right {
 			float: right;
@@ -20,6 +33,11 @@
 			aside {
 				text-align: right;
 				left: -400px;
+
+			}
+
+			.project-tile-border {
+				left: -20px;
 
 			}
 		}
@@ -34,35 +52,43 @@
 }
 
 
+/* COLORS */
+
 .project-tile {
 	width: 100%;
 	height: $project-tile-height;
 
 	&.boost {
 		background-color: $boost-orange;
+		border: $boost-orange;
 
 	}
 
 	&.cocktail {
 		background-color: $cocktail-pink;
+		border: $cocktail-pink;
 	}
 
 	&.mml {
 		background-color: $mml-blue;
+		border: $mml-blue;
 
 	}
 
 	&.gopro {
 		background-color: $gopro-blue;
+		border: $gopro-blue;
 
 	}
 
 	&.redbull {
 		background-color: $redbull-red;
+		border: $redbull-red;
 	}
 
 	&.personal {
 		background-color: $personal-teal;
+		border: $personal-teal;
 	}
 
 

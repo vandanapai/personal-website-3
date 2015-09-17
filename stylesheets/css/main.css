@@ -265,7 +265,8 @@ h1 {
   font-weight: 700;
   font-size: 4em;
   color: #FFFFFF;
-  line-height: 1em; }
+  line-height: 1em;
+  text-transform: uppercase; }
 
 h2 {
   font-size: 1em;
@@ -694,7 +695,8 @@ body {
   max-width: 1300px;
   top: 0;
   height: 100px;
-  padding-top: 25px; }
+  padding-top: 25px;
+  z-index: 5000; }
   .main-nav-container .main-nav {
     vertical-align: top;
     display: inline-block;
@@ -720,12 +722,21 @@ body {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 57.35098%; }
+    width: 57.35098%;
+    /* STYLING FOR ALL ITEMS THAT ARE FEATURED ON THE RIGHT SIDE */ }
     .project-grid-container .project-tile aside {
       position: absolute;
       width: 500px;
       top: 100px;
       right: -400px; }
+    .project-grid-container .project-tile .project-tile-border {
+      position: absolute;
+      height: 450px;
+      width: 100%;
+      top: 20px;
+      left: 20px;
+      border: 5px solid;
+      border-color: inherit; }
     .project-grid-container .project-tile:last-child {
       margin-right: 0; }
     .project-grid-container .project-tile.right {
@@ -733,6 +744,8 @@ body {
       .project-grid-container .project-tile.right aside {
         text-align: right;
         left: -400px; }
+      .project-grid-container .project-tile.right .project-tile-border {
+        left: -20px; }
     @media screen and (max-width: 768px) {
       .project-grid-container .project-tile {
         float: left;
@@ -753,21 +766,28 @@ body {
     .project-grid-container {
       max-width: 26.25em; } }
 
+/* COLORS */
 .project-tile {
   width: 100%;
   height: 450px; }
   .project-tile.boost {
-    background-color: #FEB787; }
+    background-color: #FEB787;
+    border: #FEB787; }
   .project-tile.cocktail {
-    background-color: #D44D5C; }
+    background-color: #D44D5C;
+    border: #D44D5C; }
   .project-tile.mml {
-    background-color: #1157AF; }
+    background-color: #1157AF;
+    border: #1157AF; }
   .project-tile.gopro {
-    background-color: #5EA9DC; }
+    background-color: #5EA9DC;
+    border: #5EA9DC; }
   .project-tile.redbull {
-    background-color: #DB0A40; }
+    background-color: #DB0A40;
+    border: #DB0A40; }
   .project-tile.personal {
-    background-color: #55C3C2; }
+    background-color: #55C3C2;
+    border: #55C3C2; }
 
 .project-content-container, .project-intro-container {
   float: none;
