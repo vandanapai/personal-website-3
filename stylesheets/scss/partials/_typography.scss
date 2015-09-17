@@ -73,7 +73,6 @@ h2 {
 	margin-bottom: 1.5em;
 	margin-top: 1.5em;
 	@extend h6;
-
 }
 
 h3 {
@@ -97,6 +96,13 @@ h6 {
 
 }
 
+.project-tile-caption {
+	h2 {
+		color: $pure-white;
+		font-weight: 400;
+		margin: 0;
+	}
+}
 
 
 .project-content-container, .project-content-row  {

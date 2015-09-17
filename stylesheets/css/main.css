@@ -287,6 +287,11 @@ h6, h2 {
   color: #C6C6C6;
   font-weight: bold; }
 
+.project-tile-caption h2 {
+  color: #FFFFFF;
+  font-weight: 400;
+  margin: 0; }
+
 .project-content-container.dark p, .project-content-container.dark h3, .project-content-row.dark p, .project-content-row.dark h3 {
   color: #FFFFFF; }
 .project-content-container.thirds p, .project-content-row.thirds p {
@@ -707,16 +712,16 @@ body {
     display: block;
     margin-right: 2.35765%;
     width: 57.35098%; }
-    .project-grid-container .project-tile h1 {
+    .project-grid-container .project-tile aside {
       position: absolute;
       left: 600px;
       width: 500px;
-      top: 200px; }
+      top: 100px; }
     .project-grid-container .project-tile:last-child {
       margin-right: 0; }
     .project-grid-container .project-tile.right {
       float: right; }
-      .project-grid-container .project-tile.right h1 {
+      .project-grid-container .project-tile.right aside {
         text-align: right;
         left: -400px; }
     @media screen and (max-width: 768px) {

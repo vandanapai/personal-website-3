@@ -3,11 +3,12 @@
 		margin-bottom: 50px;
 		position: relative;
 
-		h1 {
+		aside {
 			position: absolute;
 			left: 600px;
 			width: 500px;
-			top: 200px;	
+			top: 100px;	
+
 		}
 
 		@include span-columns(7 of 12);
@@ -15,7 +16,7 @@
 		&.right {
 			float: right;
 
-			h1 {
+			aside {
 				text-align: right;
 				left: -400px;
 
