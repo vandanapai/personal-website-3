@@ -24,16 +24,13 @@ body {
 }
 
 
+
+
 .project-intro-container{
 	h1 {
-		font-family: $serif-heading-font-stack;
-		font-weight: 700;
-		font-size: 4em;
 		color: $darkest-grey;
-		line-height: 1em;
 		margin-top: -115px;
 		text-align: center;
-		text-transform: uppercase;
 		max-width: 500px;
 		margin-left: auto;
 		margin-right: auto;
@@ -63,6 +60,13 @@ p {
 	}
 }
 
+h1 {
+	font-family: $serif-heading-font-stack;
+	font-weight: 700;
+	font-size: 4em;
+	color: $pure-white;
+	line-height: 1em;
+}
 
 h2 {
 	font-size: 1em;

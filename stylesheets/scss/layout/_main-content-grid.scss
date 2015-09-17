@@ -5,8 +5,8 @@ body {
 }
 
 .body-container {
-	max-width: 1300px;
-	margin: auto;	
+	max-width: $body-max-width;
+	margin: auto;
 }
 
 .grid-container {
@@ -17,6 +17,7 @@ body {
 
 .main-content-container {
 	background-color: $body-background;
+	margin-top: $margin-top-height;
 }
 
 .main-container {

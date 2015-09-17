@@ -1,3 +1,36 @@
+.project-grid-container {
+	.project-tile {
+		margin-bottom: 50px;
+		position: relative;
+
+		h1 {
+			position: absolute;
+			left: 600px;
+			width: 500px;
+			top: 200px;	
+		}
+
+		@include span-columns(7 of 12);
+
+		&.right {
+			float: right;
+
+			h1 {
+				text-align: right;
+				left: -400px;
+
+			}
+		}
+		
+		@media screen and (max-width: 768px){
+			@include span-columns(12);
+			width: 700px;	
+    	}
+	}
+
+	@include outer-container;
+}
+
 
 .project-tile {
 	width: 100%;
@@ -30,9 +63,7 @@
 		background-color: $personal-teal;
 	}
 
-	&.staggered {
-		width: $project-tile-width-main;
-	}
+
 }
 
 

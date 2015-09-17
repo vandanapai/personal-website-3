@@ -121,6 +121,10 @@ textarea {
 // Addresses margins handled incorrectly in IE6/7
 
 body {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     margin: 0;
     font: $base-font-size/ 1 sans-serif; 
     -moz-osx-font-smoothing: grayscale;
