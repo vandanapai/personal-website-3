@@ -233,8 +233,18 @@ p, h1, ul, ol, button, figure {
   font-style: normal;
   font-weight: 400;
   src: url("../../assets/fonts/Freight/f-display-book.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/f-display-book.woff") format("woff"), url("../../assets/fonts/Freight/f-display-book.ttf") format("truetype"), url("../../assets/fonts/Freight/f-display-book.svg#freight display") format("svg"); }
+@font-face {
+  font-family: "freight big";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../../assets/fonts/Freight/FreightBigProItalic.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/FreightBigProItalic.woff") format("woff"), url("../../assets/fonts/Freight/FreightBigProItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: "freight big";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/Freight/FreightBigPro.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight/FreightBigPro.woff") format("woff"), url("../../assets/fonts/Freight/FreightBigPro.ttf") format("truetype"); }
 body {
-  font: 100% "Freight Sans", "Avenir", sans-serif;
+  font: 100% "Freight Sans", sans-serif;
   color: #717171;
   font-style: normal; }
 
@@ -244,7 +254,8 @@ body {
   text-align: center;
   max-width: 500px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  font-style: none; }
 .project-intro-container h4 {
   font-family: "Freight", Georgia, serif;
   font-size: 1.5em;
@@ -262,8 +273,8 @@ p {
 
 h1 {
   font-family: "Freight Display", "Freight Big", Georgia;
-  font-weight: 700;
   font-size: 4em;
+  font-weight: 400;
   color: #FFFFFF;
   line-height: 1em; }
 
@@ -281,7 +292,7 @@ h3 {
     text-align: center; }
 
 h6, h2 {
-  font-family: "Freight Sans", "Avenir", sans-serif;
+  font-family: "Freight Sans", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.188em;
   color: #C6C6C6;
@@ -297,6 +308,12 @@ h6, h2 {
 .project-content-container.thirds p, .project-content-row.thirds p {
   text-align: center; }
 
+/* Footer */
+footer p {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.188em; }
+
 /* Highlight */
 ::-moz-selection {
   background-color: #1F1F1F;
@@ -307,7 +324,7 @@ h6, h2 {
   color: #FFFFFF; }
 
 a {
-  font-family: "Freight Sans", "Avenir", sans-serif;
+  font-family: "Freight Sans", sans-serif;
   color: inherit;
   letter-spacing: 0.188em; }
   a.main-nav {
@@ -315,14 +332,12 @@ a {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 0.75em;
-    padding: 0px 2px 0px 2px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
     a.main-nav:hover, a.main-nav:focus, a.main-nav:active {
-      color: #1F1F1F;
-      background-color: #55C3C2;
-      padding: 0px 2px 0px 2px; }
+      color: #FFFFFF;
+      text-decoration: underline; }
   a h1 {
     letter-spacing: 0px; }
 
@@ -792,7 +807,7 @@ footer {
   padding-top: 80px;
   padding-bottom: 80px; }
   .project-content-container.grey, .project-intro-container.grey {
-    background-color: #F9F9F9; }
+    background-color: #F3F3F3; }
   .project-content-container.boost-blue, .project-intro-container.boost-blue {
     background-color: #134463; }
   .project-content-container.boost-orange, .project-intro-container.boost-orange {
