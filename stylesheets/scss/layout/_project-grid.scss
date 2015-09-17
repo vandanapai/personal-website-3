@@ -2,12 +2,13 @@
 	.project-tile {
 		margin-bottom: 50px;
 		position: relative;
+		float: left;
 
 		aside {
 			position: absolute;
-			left: 600px;
 			width: 500px;
 			top: 100px;	
+			right: -400px;
 
 		}
 
@@ -25,7 +26,7 @@
 		
 		@media screen and (max-width: 768px){
 			@include span-columns(12);
-			width: 700px;	
+			width: 700px;
     	}
 	}
 

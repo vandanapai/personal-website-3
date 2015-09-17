@@ -12,13 +12,15 @@
 	}
 }
 
-.boost-logo {
-	max-width: 700px;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 
 /* GLOBAL IMAGES */
+
+
+.main-nav-logo {
+	width: 50px;
+	height: 50px;
+}
 
 #p-fill, #background-fill { // vp logo color change
   	@include transition(all 0.25s ease-in-out);
@@ -62,6 +64,11 @@
 
 /* BOOST IMAGES */
 
+.boost-logo {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /* 901 COCKTAILS */
 
